@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 3ab57fc7303b7e440984e861626a73a8
+timeCreated: 1521531228
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 0.!joint_Master
+    100002: 1.joint_Center
+    100004: 10.!joint_RightShoulder
+    100006: 11.joint_RightArm
+    100008: 12.joint_RightElbow
+    100010: 13.joint_RightWrist
+    100012: 14.!joint_HipMasterTip
+    100014: 15.!joint_HeadTip
+    100016: 16.!joint_LeftHandTip
+    100018: 17.!joint_RightHandTip
+    100020: 18.!joint_CenterTip
+    100022: 19.joint_migimimi1
+    100024: 2.joint_Torso
+    100026: 20.joint_migimimi2
+    100028: 21.!joint_migimimisaki
+    100030: 22.joint_hidarimimi1
+    100032: 23.joint_hidarimimi2
+    100034: 24.!joint_hidarimimisaki
+    100036: 25.joint_LeftHip
+    100038: 26.joint_LeftKnee
+    100040: 27.joint_LeftFoot
+    100042: 28.joint_RightHip
+    100044: 29.joint_RightKnee
+    100046: 3.!joint_Neck
+    100048: 30.joint_RightFoot
+    100050: 31.!joint_LeftToe
+    100052: 32.!joint_RightToe
+    100054: 33.!IK_LeftHip
+    100056: 34.!IK_RightHip
+    100058: 35.!IK_LeftToe
+    100060: 36.!IK_RightToe
+    100062: 37.!IK_LeftHipTip
+    100064: 38.!IK_RightHipTip
+    100066: 39.!IK_LeftToeTip
+    100068: 4.joint_Head
+    100070: 40.!IK_RightToeTip
+    100072: 41.joint_o1
+    100074: 42.joint_o2
+    100076: 43.joint_o3
+    100078: 44.!joint_osaki
+    100080: 45.!Root
+    100082: 5.joint_HipMaster
+    100084: 6.!joint_LeftShoulder
+    100086: 7.joint_LeftArm
+    100088: 8.joint_LeftElbow
+    100090: 9.joint_LeftWrist
+    100092: //RootNode
+    100094: U_Char
+    100096: U_Char_0
+    100098: U_Char_1
+    400000: 0.!joint_Master
+    400002: 1.joint_Center
+    400004: 10.!joint_RightShoulder
+    400006: 11.joint_RightArm
+    400008: 12.joint_RightElbow
+    400010: 13.joint_RightWrist
+    400012: 14.!joint_HipMasterTip
+    400014: 15.!joint_HeadTip
+    400016: 16.!joint_LeftHandTip
+    400018: 17.!joint_RightHandTip
+    400020: 18.!joint_CenterTip
+    400022: 19.joint_migimimi1
+    400024: 2.joint_Torso
+    400026: 20.joint_migimimi2
+    400028: 21.!joint_migimimisaki
+    400030: 22.joint_hidarimimi1
+    400032: 23.joint_hidarimimi2
+    400034: 24.!joint_hidarimimisaki
+    400036: 25.joint_LeftHip
+    400038: 26.joint_LeftKnee
+    400040: 27.joint_LeftFoot
+    400042: 28.joint_RightHip
+    400044: 29.joint_RightKnee
+    400046: 3.!joint_Neck
+    400048: 30.joint_RightFoot
+    400050: 31.!joint_LeftToe
+    400052: 32.!joint_RightToe
+    400054: 33.!IK_LeftHip
+    400056: 34.!IK_RightHip
+    400058: 35.!IK_LeftToe
+    400060: 36.!IK_RightToe
+    400062: 37.!IK_LeftHipTip
+    400064: 38.!IK_RightHipTip
+    400066: 39.!IK_LeftToeTip
+    400068: 4.joint_Head
+    400070: 40.!IK_RightToeTip
+    400072: 41.joint_o1
+    400074: 42.joint_o2
+    400076: 43.joint_o3
+    400078: 44.!joint_osaki
+    400080: 45.!Root
+    400082: 5.joint_HipMaster
+    400084: 6.!joint_LeftShoulder
+    400086: 7.joint_LeftArm
+    400088: 8.joint_LeftElbow
+    400090: 9.joint_LeftWrist
+    400092: //RootNode
+    400094: U_Char
+    400096: U_Char_0
+    400098: U_Char_1
+    4300000: U_Char_0
+    4300002: U_Char_1
+    7400000: pikachu-stand_vmd
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: U_Char_0
+    13700002: U_Char_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0.zaishitsu3+
+    second: {fileID: 2100000, guid: 7e50f262f2b850747a446764058f49b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1.zaishitsu2+
+    second: {fileID: 2100000, guid: bf80d38588464f741a7d755c1ced50a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2.zaishitsu4+
+    second: {fileID: 2100000, guid: e3b99696b6f867e43ae49fa6346870ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3.zaishitsu1
+    second: {fileID: 2100000, guid: 2d4c0d41d6d500548b9587cdfca199e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4.zaishitsu5
+    second: {fileID: 2100000, guid: 897e89d83aa1db84ba872a6c9935efb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5.shinkizaishitsu1
+    second: {fileID: 2100000, guid: 1c1a73311f3a5354a85d7e15aaf16154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6.zaishitsu6
+    second: {fileID: 2100000, guid: d9468444eadc7cc4e8a4a9ad5ba5581a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pikachu-stand_vmd
+      takeName: pikachu-stand_vmd
+      firstFrame: 0
+      lastFrame: 235
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
