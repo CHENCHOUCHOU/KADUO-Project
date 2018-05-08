@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" bgColorEnabled="true">
+  <displayList>
+    <image id="n0_jv9q" name="n0" src="afrp1" xy="6,4" size="113,108"/>
+    <text id="n1_jv9q" name="n1" xy="105,45" size="258,89" font="Bauhaus 93" fontSize="60" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
+      <relation target="n0_jv9q" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n2_jv9q" name="n2" xy="385,74" size="411,59" font="等线" fontSize="50" autoSize="none" bold="true" text="装饰商城"/>
+    <text id="n8_jv9q" name="n8" xy="57,159" size="117,39" fontSize="23" autoSize="none" text="饰品分类"/>
+    <list id="n9_jv9q" name="n9" xy="246,178" size="530,274" layout="flow_hz" overflow="scroll" defaultItem="ui://dynfvg1hgzby2e">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n10_jv9q" name="n10" xy="108,227" size="46,300" overflow="scroll" lineGap="19">
+      <item url="ui://dynfvg1hjv9q22"/>
+      <item url="ui://dynfvg1hjv9q23"/>
+      <item url="ui://dynfvg1hjv9q24"/>
+      <item url="ui://dynfvg1hjv9q25"/>
+    </list>
+    <component id="n11_jv9q" name="n11" src="afrpx" xy="621,458"/>
+    <component id="n12_jv9q" name="n12" src="afrpy" xy="719,458"/>
+    <text id="n13_jv9q" name="n13" xy="654,465" size="65,27" font="等线" fontSize="18" autoSize="none" text="换一换"/>
+  </displayList>
+</component>

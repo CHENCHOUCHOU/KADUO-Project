@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" bgColorEnabled="true">
+  <displayList>
+    <image id="n1_jv9q" name="n1" src="jv9q16" xy="3,0" size="129,124"/>
+    <text id="n3_jv9q" name="n3" xy="111,34" size="97,75" font="Century Gothic" fontSize="17" leading="-1" autoSize="none" bold="true" text="pikachu&#xA;&#xA;2 months"/>
+    <component id="n6_jv9q" name="n6" src="jv9q19" xy="719,206" size="49,51">
+      <relation target="" sidePair="right-right%"/>
+    </component>
+    <component id="n7_jv9q" name="n7" src="jv9q1a" xy="723,314" size="45,35"/>
+    <component id="n8_jv9q" name="n8" src="jv9q1d" xy="86,259" size="54,50"/>
+    <component id="n9_jv9q" name="n9" src="jv9q1f" xy="719,108" size="49,51"/>
+  </displayList>
+</component>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dynfvg1h" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="afrp0" name="startpage.xml" path="/" exported="true"/>
+    <image id="afrp1" name="startpagePic.jpg" path="/"/>
+    <image id="afrp2" name="buttonstart.PNG" path="/"/>
+    <image id="afrp3" name="buttonstart1.PNG" path="/"/>
+    <component id="afrp4" name="Button1.xml" path="/"/>
+    <image id="afrp5" name="buttonexit.PNG" path="/"/>
+    <image id="afrp6" name="buttonexit1.PNG" path="/"/>
+    <component id="afrp7" name="Button2.xml" path="/"/>
+    <component id="afrp9" name="loginpage.xml" path="/" exported="true"/>
+    <image id="afrpa" name="background.PNG" path="/"/>
+    <image id="afrpc" name="textfield.PNG" path="/"/>
+    <image id="afrpd" name="buttonsignin.PNG" path="/"/>
+    <image id="afrpe" name="buttonsignup.PNG" path="/"/>
+    <image id="afrpf" name="buttonsignin1.PNG" path="/"/>
+    <image id="afrpg" name="buttonsignup1.PNG" path="/"/>
+    <component id="afrph" name="Button3.xml" path="/"/>
+    <component id="afrpi" name="Button4.xml" path="/"/>
+    <component id="afrpj" name="mainpage.xml" path="/" exported="true"/>
+    <image id="afrpm" name="profile.PNG" path="/"/>
+    <image id="afrpn" name="modify.PNG" path="/"/>
+    <image id="afrpp" name="modify1.PNG" path="/"/>
+    <component id="afrpq" name="Button5.xml" path="/"/>
+    <image id="afrpu" name="changebefore.PNG" path="/"/>
+    <image id="afrpw" name="changeafter.PNG" path="/"/>
+    <component id="afrpx" name="Button6.xml" path="/"/>
+    <component id="afrpy" name="Button7.xml" path="/"/>
+    <image id="afrpz" name="add.PNG" path="/"/>
+    <image id="afrp10" name="add1.PNG" path="/"/>
+    <component id="afrp11" name="Button8.xml" path="/"/>
+    <component id="jv9q12" name="Button9.xml" path="/"/>
+    <component id="jv9q14" name="Button10.xml" path="/"/>
+    <component id="jv9q15" name="playpage.xml" path="/" exported="true"/>
+    <image id="jv9q16" name="pikachu.PNG" path="/" scale9grid="64,61,128,122"/>
+    <image id="jv9q17" name="拍照.png" path="/"/>
+    <image id="jv9q18" name="相册.png" path="/"/>
+    <component id="jv9q19" name="Button11.xml" path="/"/>
+    <component id="jv9q1a" name="Button12.xml" path="/"/>
+    <image id="jv9q1b" name="服装市场.png" path="/"/>
+    <component id="jv9q1d" name="Button13.xml" path="/"/>
+    <image id="jv9q1e" name="返回.png" path="/"/>
+    <component id="jv9q1f" name="Button14.xml" path="/"/>
+    <image id="jv9q1g" name="37-下扩展箭头.png" path="/"/>
+    <component id="jv9q1h" name="Button15.xml" path="/"/>
+    <component id="jv9q1l" name="photopage.xml" path="/" exported="true"/>
+    <image id="jv9q1m" name="photo.PNG" path="/"/>
+    <component id="jv9q1n" name="store.xml" path="/" exported="true"/>
+    <image id="jv9q1y" name="border.PNG" path="/"/>
+    <image id="jv9q22" name="list1.PNG" path="/"/>
+    <image id="jv9q23" name="list2.PNG" path="/"/>
+    <image id="jv9q24" name="list3.PNG" path="/"/>
+    <image id="jv9q25" name="list4.PNG" path="/"/>
+    <image id="npew26" name="i0.PNG" path="/"/>
+    <image id="npew27" name="i1.PNG" path="/"/>
+    <image id="npew28" name="i2.PNG" path="/"/>
+    <image id="gzby29" name="active1.PNG" path="/"/>
+    <image id="gzby2b" name="1.png" path="/"/>
+    <image id="gzby2c" name="2.png" path="/"/>
+    <image id="gzby2d" name="3.png" path="/"/>
+    <component id="gzby2e" name="Item.xml" path="/"/>
+  </resources>
+  <publish name="Package1"/>
+</packageDescription>

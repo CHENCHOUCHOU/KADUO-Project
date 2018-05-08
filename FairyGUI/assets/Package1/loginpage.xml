@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" designImageOffsetX="2" bgColorEnabled="true">
+  <displayList>
+    <image id="n0_afrp" name="n0" src="afrp1" xy="27,21" size="113,108"/>
+    <text id="n1_afrp" name="n1" xy="126,62" size="258,89" font="Bauhaus 93" fontSize="60" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
+      <relation target="n0_afrp" sidePair="left-left,top-top"/>
+    </text>
+    <image id="n2_afrp" name="n2" src="afrpa" xy="133,176" size="539,306"/>
+    <text id="n3_afrp" name="n3" xy="242,245" size="71,31" font="幼圆" fontSize="19" color="#ffffff" autoSize="none" bold="true" text="用户名"/>
+    <text id="n4_afrp" name="n4" xy="252,318" size="50,31" font="幼圆" fontSize="19" color="#ffffff" autoSize="none" bold="true" text="密码"/>
+    <image id="n10_afrp" name="n10" src="afrpc" xy="334,239" size="224,41"/>
+    <text id="n8_afrp" name="n8" xy="339,246" size="214,31" input="true" font="幼圆" fontSize="19" letterSpacing="-1" autoSize="none" bold="true" text=""/>
+    <image id="n11_afrp" name="n11" src="afrpc" xy="334,308" size="224,41"/>
+    <text id="n9_afrp" name="n9" xy="339,316" size="214,31" input="true" password="true" font="幼圆" fontSize="19" letterSpacing="-1" autoSize="none" bold="true" text=""/>
+    <component id="n14_afrp" name="n14" src="afrph" xy="458,393" size="100,45"/>
+    <component id="n15_afrp" name="n15" src="afrpi" xy="242,393" size="100,45"/>
+  </displayList>
+</component>

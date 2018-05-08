@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" bgColorEnabled="true">
+  <displayList>
+    <image id="n0_afrp" name="n0" src="afrp1" xy="206,167" size="127,116">
+      <relation target="" sidePair="left-left%,top-top"/>
+    </image>
+    <text id="n1_afrp" name="n1" xy="332,219" size="272,93" font="Bauhaus 93" fontSize="70" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
+      <relation target="n0_afrp" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n2_afrp" name="n2" src="afrp4" xy="236,375"/>
+    <component id="n3_afrp" name="n3" src="afrp7" xy="461,375" size="113,66"/>
+  </displayList>
+</component>
