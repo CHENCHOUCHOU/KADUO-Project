@@ -84,6 +84,12 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+
+            //修改部分
+            if (mTrackableBehaviour.TrackableName == "mordred")
+            {
+                SceneController.foodOn = true;
+            }
         }
 
 
@@ -105,6 +111,12 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+
+            //修改部分
+            if (mTrackableBehaviour.TrackableName == "mordred")
+            {
+                SceneController.foodOn = false;
+            }
         }
 
         #endregion // PRIVATE_METHODS
