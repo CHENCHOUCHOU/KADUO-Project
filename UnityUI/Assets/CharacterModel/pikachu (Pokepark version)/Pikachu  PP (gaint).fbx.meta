@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 43b333eb23c4cce4b904e3099e7a6fd1
+timeCreated: 1526298628
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 0.!joint_Master
+    100002: 1.joint_Center
+    100004: 10.!joint_RightShoulder
+    100006: 11.joint_RightArm
+    100008: 12.joint_RightElbow
+    100010: 13.joint_RightWrist
+    100012: 14.!joint_HipMasterTip
+    100014: 15.!joint_HeadTip
+    100016: 16.!joint_LeftHandTip
+    100018: 17.!joint_RightHandTip
+    100020: 18.!joint_CenterTip
+    100022: 19.joint_migimimi1
+    100024: 2.joint_Torso
+    100026: 20.joint_migimimi2
+    100028: 21.!joint_migimimisaki
+    100030: 22.joint_hidarimimi1
+    100032: 23.joint_hidarimimi2
+    100034: 24.!joint_hidarimimisaki
+    100036: 25.joint_LeftHip
+    100038: 26.joint_LeftKnee
+    100040: 27.joint_LeftFoot
+    100042: 28.joint_RightHip
+    100044: 29.joint_RightKnee
+    100046: 3.!joint_Neck
+    100048: 30.joint_RightFoot
+    100050: 31.!joint_LeftToe
+    100052: 32.!joint_RightToe
+    100054: 33.!IK_LeftHip
+    100056: 34.!IK_RightHip
+    100058: 35.!IK_LeftToe
+    100060: 36.!IK_RightToe
+    100062: 37.!IK_LeftHipTip
+    100064: 38.!IK_RightHipTip
+    100066: 39.!IK_LeftToeTip
+    100068: 4.joint_Head
+    100070: 40.!IK_RightToeTip
+    100072: 41.joint_o1
+    100074: 42.joint_o2
+    100076: 43.joint_o3
+    100078: 44.!joint_osaki
+    100080: 45.!Root
+    100082: 5.joint_HipMaster
+    100084: 6.!joint_LeftShoulder
+    100086: 7.joint_LeftArm
+    100088: 8.joint_LeftElbow
+    100090: 9.joint_LeftWrist
+    100092: //RootNode
+    100094: U_Char
+    100096: U_Char_0
+    100098: U_Char_1
+    400000: 0.!joint_Master
+    400002: 1.joint_Center
+    400004: 10.!joint_RightShoulder
+    400006: 11.joint_RightArm
+    400008: 12.joint_RightElbow
+    400010: 13.joint_RightWrist
+    400012: 14.!joint_HipMasterTip
+    400014: 15.!joint_HeadTip
+    400016: 16.!joint_LeftHandTip
+    400018: 17.!joint_RightHandTip
+    400020: 18.!joint_CenterTip
+    400022: 19.joint_migimimi1
+    400024: 2.joint_Torso
+    400026: 20.joint_migimimi2
+    400028: 21.!joint_migimimisaki
+    400030: 22.joint_hidarimimi1
+    400032: 23.joint_hidarimimi2
+    400034: 24.!joint_hidarimimisaki
+    400036: 25.joint_LeftHip
+    400038: 26.joint_LeftKnee
+    400040: 27.joint_LeftFoot
+    400042: 28.joint_RightHip
+    400044: 29.joint_RightKnee
+    400046: 3.!joint_Neck
+    400048: 30.joint_RightFoot
+    400050: 31.!joint_LeftToe
+    400052: 32.!joint_RightToe
+    400054: 33.!IK_LeftHip
+    400056: 34.!IK_RightHip
+    400058: 35.!IK_LeftToe
+    400060: 36.!IK_RightToe
+    400062: 37.!IK_LeftHipTip
+    400064: 38.!IK_RightHipTip
+    400066: 39.!IK_LeftToeTip
+    400068: 4.joint_Head
+    400070: 40.!IK_RightToeTip
+    400072: 41.joint_o1
+    400074: 42.joint_o2
+    400076: 43.joint_o3
+    400078: 44.!joint_osaki
+    400080: 45.!Root
+    400082: 5.joint_HipMaster
+    400084: 6.!joint_LeftShoulder
+    400086: 7.joint_LeftArm
+    400088: 8.joint_LeftElbow
+    400090: 9.joint_LeftWrist
+    400092: //RootNode
+    400094: U_Char
+    400096: U_Char_0
+    400098: U_Char_1
+    4300000: U_Char_0
+    4300002: U_Char_1
+    7400000: pikachu-eat_vmd
+    7400002: pikachu-walk_vmd
+    7400004: pikachu-stand_vmd
+    7400006: pikachu-walk_vmd (1)
+    9500000: //RootNode
+    13700000: U_Char_0
+    13700002: U_Char_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0.zaishitsu3+
+    second: {fileID: 2100000, guid: 611e4df2a74e97e43835d926fe9b3a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1.zaishitsu2+
+    second: {fileID: 2100000, guid: 106e8015556467d458fe5eb8de9b66ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2.zaishitsu4+
+    second: {fileID: 2100000, guid: 9a03699126d14b1488e6a537c3bb6483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3.zaishitsu1
+    second: {fileID: 2100000, guid: 71fdca2a2ea577543b50894b578e6ebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4.zaishitsu5
+    second: {fileID: 2100000, guid: 5ccbd91c32eafa54b9805db974002895, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5.shinkizaishitsu1
+    second: {fileID: 2100000, guid: d5ad547d1461d40459e9cd296c4e7f83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6.zaishitsu6
+    second: {fileID: 2100000, guid: 32de74ad96730d14cb516a714f6408f5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'6.!joint_LeftShoulder'
+      : rotation error = 91.610329 deg\n\t'10.!joint_RightShoulder' : rotation error
+      = 94.116318 deg\n\t'3.!joint_Neck' : rotation error = 12.001768 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'pikachu-eat_vmd' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'19.joint_migimimi1' has translation animation
+      that will be discarded.\n\t'22.joint_hidarimimi1' has translation animation
+      that will be discarded.\n\nClip 'pikachu-walk_vmd' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'5.joint_HipMaster' has translation animation
+      that will be discarded.\n\t'19.joint_migimimi1' has translation animation that
+      will be discarded.\n\t'22.joint_hidarimimi1' has translation animation that
+      will be discarded.\n\nClip 'pikachu-stand_vmd' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'10.!joint_RightShoulder' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'3.!joint_Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'19.joint_migimimi1'
+      has translation animation that will be discarded.\n\t'22.joint_hidarimimi1'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pikachu-walk_vmd
+      takeName: pikachu-walk_vmd
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pikachu-stand_vmd
+      takeName: pikachu-stand_vmd
+      firstFrame: 0
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pikachu-eat_vmd
+      takeName: pikachu-eat_vmd
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: 45.!Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 25.joint_LeftHip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 28.joint_RightHip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 26.joint_LeftKnee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 29.joint_RightKnee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 27.joint_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 30.joint_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 2.joint_Torso
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 4.joint_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 7.joint_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 11.joint_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 8.joint_LeftElbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 12.joint_RightElbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 9.joint_LeftWrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 13.joint_RightWrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 22.joint_hidarimimi1
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 19.joint_migimimi1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 31.!joint_LeftToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 32.!joint_RightToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Pikachu  PP (gaint)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 45.!Root
+      parentName: Pikachu  PP (gaint)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 0.!joint_Master
+      parentName: 45.!Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 1.joint_Center
+      parentName: 0.!joint_Master
+      position: {x: -0, y: 0.2489557, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 18.!joint_CenterTip
+      parentName: 1.joint_Center
+      position: {x: -0.014400001, y: -0.28728068, z: 0.025105659}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 33.!IK_LeftHip
+      parentName: 0.!joint_Master
+      position: {x: -0.28393498, y: 0.072066374, z: 0.008355477}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 35.!IK_LeftToe
+      parentName: 33.!IK_LeftHip
+      position: {x: -0.0065707588, y: -0.08093596, z: 0.3587081}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 39.!IK_LeftToeTip
+      parentName: 35.!IK_LeftToe
+      position: {x: -0, y: -0.09356111, z: -0.002441864}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 37.!IK_LeftHipTip
+      parentName: 33.!IK_LeftHip
+      position: {x: -0, y: 0, z: -0.1338129}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 34.!IK_RightHip
+      parentName: 0.!joint_Master
+      position: {x: 0.28393498, y: 0.072066374, z: 0.008355478}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 36.!IK_RightToe
+      parentName: 34.!IK_RightHip
+      position: {x: 0.0065707588, y: -0.08093596, z: 0.35870817}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 40.!IK_RightToeTip
+      parentName: 36.!IK_RightToe
+      position: {x: -0, y: -0.093561135, z: -0.002442055}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 38.!IK_RightHipTip
+      parentName: 34.!IK_RightHip
+      position: {x: -0, y: 0, z: -0.1338129}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 5.joint_HipMaster
+      parentName: 45.!Root
+      position: {x: 0.0005958018, y: 0.78550375, z: 0.0142302}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 2.joint_Torso
+      parentName: 5.joint_HipMaster
+      position: {x: -0, y: 0.04596375, z: 0.004297371}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 3.!joint_Neck
+      parentName: 2.joint_Torso
+      position: {x: -0.001448394, y: 0.2387763, z: 0.02599884}
+      rotation: {x: 0.000000011641532, y: -8.470331e-18, z: -7.275959e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: 4.joint_Head
+      parentName: 3.!joint_Neck
+      position: {x: 0.000000002011657, y: 0.06279086, z: 0.002343661}
+      rotation: {x: -0.000000011641532, y: -0.0000000014551915, z: 0.0000000021827873,
+        w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: 15.!joint_HeadTip
+      parentName: 4.joint_Head
+      position: {x: 0.001448393, y: 0.5911419, z: -0.06650427}
+      rotation: {x: -0, y: -0, z: -1.6940659e-17, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: 19.joint_migimimi1
+      parentName: 4.joint_Head
+      position: {x: 0.3101519, y: 0.6232738, z: -0.05023664}
+      rotation: {x: -0, y: 0.0000000014324542, z: -0.0000000014552358, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: 20.joint_migimimi2
+      parentName: 19.joint_migimimi1
+      position: {x: 0.1875723, y: 0.106675096, z: -0.18985121}
+      rotation: {x: -1.49067e-18, y: 2.2737368e-11, z: 0.0000000010175416, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: 21.!joint_migimimisaki
+      parentName: 20.joint_migimimi2
+      position: {x: 0.21339689, y: 0.12690009, z: -0.21522659}
+      rotation: {x: -0, y: -0, z: 3.389391e-29, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: 22.joint_hidarimimi1
+      parentName: 4.joint_Head
+      position: {x: -0.3085662, y: 0.62343025, z: -0.050283678}
+      rotation: {x: -0, y: 0.0000000014551915, z: -0.0000000014552136, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: 23.joint_hidarimimi2
+      parentName: 22.joint_hidarimimi1
+      position: {x: -0.188267, y: 0.1068199, z: -0.18982099}
+      rotation: {x: 1.13686855e-11, y: -7.2759576e-10, z: -3.529399e-10, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: 24.!joint_hidarimimisaki
+      parentName: 23.joint_hidarimimi2
+      position: {x: -0.21339689, y: 0.12690009, z: -0.21522649}
+      rotation: {x: -0, y: -0, z: 8.271808e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 6.!joint_LeftShoulder
+      parentName: 2.joint_Torso
+      position: {x: -0.2681454, y: 0.1933704, z: 0.27830932}
+      rotation: {x: 0.0000000014551915, y: 0.0000000010913936, z: 0.000000005820766,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+    - name: 7.joint_LeftArm
+      parentName: 6.!joint_LeftShoulder
+      position: {x: -0.08644193, y: -0.0100846505, z: 0.07205019}
+      rotation: {x: -0.000000038819728, y: -0.43753976, z: 0.15957949, w: 0.8849256}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: 8.joint_LeftElbow
+      parentName: 7.joint_LeftArm
+      position: {x: -0.09102722, y: 0.0492109, z: 0.13492799}
+      rotation: {x: -0, y: -0, z: 1.8528846e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 9.joint_LeftWrist
+      parentName: 8.joint_LeftElbow
+      position: {x: -0.06545956, y: 0.04351724, z: 0.0974098}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 16.!joint_LeftHandTip
+      parentName: 9.joint_LeftWrist
+      position: {x: -0.07977877, y: 0.0502192, z: 0.09545803}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 10.!joint_RightShoulder
+      parentName: 2.joint_Torso
+      position: {x: 0.2669538, y: 0.1933704, z: 0.27830932}
+      rotation: {x: -0.000000002910383, y: 0.000000002182787, z: 6.3527463e-18, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: 11.joint_RightArm
+      parentName: 10.!joint_RightShoulder
+      position: {x: 0.08644193, y: -0.0100846095, z: 0.07205031}
+      rotation: {x: 0.00000003186992, y: 0.43753973, z: -0.1595793, w: 0.88492566}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000004}
+    - name: 12.joint_RightElbow
+      parentName: 11.joint_RightArm
+      position: {x: 0.09102733, y: 0.049210966, z: 0.13492799}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000005}
+    - name: 13.joint_RightWrist
+      parentName: 12.joint_RightElbow
+      position: {x: 0.06545926, y: 0.043517217, z: 0.09740956}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000005}
+    - name: 17.!joint_RightHandTip
+      parentName: 13.joint_RightWrist
+      position: {x: 0.07977913, y: 0.050219048, z: 0.095458105}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000007}
+    - name: 14.!joint_HipMasterTip
+      parentName: 5.joint_HipMaster
+      position: {x: -0, y: -0.4546947, z: -0.03202117}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 25.joint_LeftHip
+      parentName: 5.joint_HipMaster
+      position: {x: -0.2736902, y: -0.3388374, z: -0.03202117}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 26.joint_LeftKnee
+      parentName: 25.joint_LeftHip
+      position: {x: -0.01465733, y: -0.2075555, z: 0.04289663}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 27.joint_LeftFoot
+      parentName: 26.joint_LeftKnee
+      position: {x: 0.003816738, y: -0.1670445, z: -0.01675018}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 31.!joint_LeftToe
+      parentName: 27.joint_LeftFoot
+      position: {x: -0.00652174, y: -0.08033242, z: 0.3560328}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 28.joint_RightHip
+      parentName: 5.joint_HipMaster
+      position: {x: 0.2724986, y: -0.3388374, z: -0.03202117}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 29.joint_RightKnee
+      parentName: 28.joint_RightHip
+      position: {x: 0.01465736, y: -0.20755559, z: 0.04289663}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 30.joint_RightFoot
+      parentName: 29.joint_RightKnee
+      position: {x: -0.003816776, y: -0.1670445, z: -0.01675018}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 32.!joint_RightToe
+      parentName: 30.joint_RightFoot
+      position: {x: 0.00652174, y: -0.08033242, z: 0.3560328}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 41.joint_o1
+      parentName: 5.joint_HipMaster
+      position: {x: -0.0033148539, y: -0.31753677, z: -0.4766413}
+      rotation: {x: -1.793662e-39, y: -1.3552527e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 42.joint_o2
+      parentName: 41.joint_o1
+      position: {x: 0.0027190521, y: 0.21356879, z: -0.28058398}
+      rotation: {x: 0.0000000014551915, y: 1.3552527e-18, z: -3.4304834e-18, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: 43.joint_o3
+      parentName: 42.joint_o2
+      position: {x: -1.2291059e-13, y: 0.5896027, z: 0.1423075}
+      rotation: {x: -0.0000000014551915, y: -0, z: -1.9862923e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 44.!joint_osaki
+      parentName: 43.joint_o3
+      position: {x: -0.002608137, y: 0.5680501, z: -0.7045705}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: U_Char
+      parentName: Pikachu  PP (gaint)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: U_Char_0
+      parentName: U_Char
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: U_Char_1
+      parentName: U_Char
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

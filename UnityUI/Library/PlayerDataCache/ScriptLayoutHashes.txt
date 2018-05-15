@@ -193,7 +193,7 @@ a86d6d162fc3bb721ae5223e1944c6d5 Assembly-CSharp.dll:FairyGUI.StageEngine
 1fb2257325ae73aa275c7baeaaa2c163 Assembly-CSharp.dll:FairyGUI.UIContentScaler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Rotate
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour
-8ca2da6df9b39e9f42882690e6ba95d6 Assembly-CSharp.dll:.FindTarget
+bfcfab3fcb964ffc16f64598b9524bcd Assembly-CSharp.dll:.FindTarget
 f266a453cd4bfbe81533762a3e3589f4 DOTween.dll:DG.Tweening.Core.DOTweenComponent
 0b269eddb7d77b913f99ea770bf1912a DOTween.dll:DG.Tweening.Core.DOTweenSettings
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
