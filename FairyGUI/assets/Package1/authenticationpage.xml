@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600" designImageOffsetX="2" bgColorEnabled="true">
+  <displayList>
+    <image id="n0_afrp" name="n0" src="afrp1" xy="27,21" size="113,108" group="n16_na0c"/>
+    <text id="n1_afrp" name="n1" xy="126,62" size="258,89" group="n16_na0c" font="Bauhaus 93" fontSize="60" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
+      <relation target="n0_afrp" sidePair="left-left,top-top"/>
+    </text>
+    <group id="n16_na0c" name="n16" xy="27,21" size="357,130" advanced="true">
+      <relation target="" sidePair="left-left%"/>
+    </group>
+    <image id="n2_afrp" name="n2" src="afrpa" xy="133,176" size="539,306" group="n17_na0c"/>
+    <text id="n3_afrp" name="n3" xy="327,233" size="150,34" group="n17_na0c" font="幼圆" fontSize="19" color="#ffffff" autoSize="none" bold="true" text="请输入序列码"/>
+    <image id="n10_afrp" name="n10" src="afrpc" xy="241,285" size="317,41" group="n17_na0c"/>
+    <text id="n8_afrp" name="n8" xy="246,292" size="307,31" group="n17_na0c" input="true" font="幼圆" fontSize="19" letterSpacing="-1" autoSize="none" bold="true" text=""/>
+    <component id="n25_dddl" name="n25" src="dddl36" xy="241,385" group="n17_na0c"/>
+    <component id="n26_dddl" name="n26" src="dddl37" xy="468,385" group="n17_na0c"/>
+    <group id="n17_na0c" name="n17" xy="133,175" size="539,306" advanced="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </group>
+  </displayList>
+</component>

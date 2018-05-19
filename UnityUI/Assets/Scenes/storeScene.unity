@@ -263,7 +263,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 589932623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6666665, y: -5, z: 0}
+  m_LocalPosition: {x: 12.67742, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 723473870}
   - component: {fileID: 723473869}
   - component: {fileID: 723473868}
+  - component: {fileID: 723473871}
   m_Layer: 5
   m_Name: UIPanel
   m_TagString: Untagged
@@ -318,7 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageName: Package1
   componentName: store
-  fitScreen: 0
+  fitScreen: 2
   sortingOrder: 0
   packagePath: FGUI/Package1
   renderMode: 0
@@ -339,11 +340,22 @@ Transform:
   m_GameObject: {fileID: 723473867}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.016666668, y: 0.016666668, z: 0.016666668}
+  m_LocalScale: {x: 0.016666666, y: 0.016666666, z: 0.016666666}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &723473871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723473867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d5e26412bde3c46997c6aee8d01f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1507588633
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -121,6 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490585785}
   - component: {fileID: 490585784}
+  - component: {fileID: 490585786}
   - component: {fileID: 490585783}
   m_Layer: 5
   m_Name: UIPanel
@@ -137,7 +138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 490585782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36d6cbf4369e93046874320f5f14fe9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d8799ffc88d43648a204a63c362f722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &490585784
@@ -153,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageName: Package1
   componentName: mainpage
-  fitScreen: 0
+  fitScreen: 2
   sortingOrder: 0
   packagePath: FGUI/Package1
   renderMode: 0
@@ -174,11 +175,22 @@ Transform:
   m_GameObject: {fileID: 490585782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01675042, y: 0.01675042, z: 0.01675042}
+  m_LocalScale: {x: 0.016666668, y: 0.016666668, z: 0.016666668}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &490585786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490585782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d6cbf4369e93046874320f5f14fe9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &948301670
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +262,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 948301670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6666665, y: -5, z: 0}
+  m_LocalPosition: {x: 8.382353, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

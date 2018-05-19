@@ -9,20 +9,20 @@ public class MainToPlay : MonoBehaviour
     void Start()
     {
         mainUI = GetComponent<UIPanel>().ui;
-        GButton choice1 = mainUI.GetChild("n15").asButton;
-        GButton choice2 = mainUI.GetChild("n14").asButton;
-        GButton choice3 = mainUI.GetChild("n14").asButton;
+        GButton playButton = mainUI.GetChild("playButton").asButton;
+        GButton addButton = mainUI.GetChild("addButton").asButton;
 
-        choice1.onClick.Set((EventContext) => {
-            SceneManager.LoadSceneAsync("PlayScene");
-        });
-        choice2.onClick.Set((EventContext) => {
-            SceneManager.LoadSceneAsync("PlayScene");
-        });
-        choice3.onClick.Set((EventContext) => {
+
+        playButton.onClick.Set((EventContext) =>
+        {
             SceneManager.LoadSceneAsync("PlayScene");
         });
 
+
+        addButton.onClick.Set((EventContext) =>
+        {
+            SceneManager.LoadSceneAsync("authenticationScene");
+        });
     }
 
     // Update is called once per frame

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="800,600" bgColorEnabled="true">
   <displayList>
-    <image id="n0_jv9q" name="n0" src="jv9q16" xy="2,2" size="129,124"/>
-    <text id="n1_jv9q" name="n1" xy="109,40" size="97,75" font="Century Gothic" fontSize="17" leading="-1" autoSize="none" bold="true" text="pikachu&#xA;&#xA;2 months"/>
-    <text id="n3_jv9q" name="n3" xy="273,88" size="411,59" font="等线" fontSize="50" autoSize="none" bold="true" text="PiKaChu的相册"/>
-    <component id="n12_jv9q" name="n12" src="afrpx" xy="627,445"/>
-    <component id="n13_jv9q" name="n13" src="afrpy" xy="725,445"/>
-    <text id="n14_jv9q" name="n14" xy="662,453" size="65,27" font="等线" fontSize="18" autoSize="none" text="换一换"/>
-    <list id="n15_jv9q" name="n15" xy="217,172" size="598,285" layout="flow_hz" overflow="scroll" defaultItem="ui://dynfvg1hgzby2e">
+    <image id="n0_jv9q" name="n0" src="jv9q16" xy="2,2" size="129,124" group="n16_rlg6"/>
+    <text id="n1_jv9q" name="n1" xy="109,40" size="97,75" group="n16_rlg6" font="Century Gothic" fontSize="17" leading="-1" autoSize="none" bold="true" text="pikachu&#xA;&#xA;2 months"/>
+    <group id="n16_rlg6" name="n16" xy="2,2" size="204,124" advanced="true">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </group>
+    <text id="n3_jv9q" name="n3" xy="332,93" size="286,59" group="n20_rlg6" font="等线" fontSize="50" autoSize="none" bold="true" text="Chen的相册"/>
+    <component id="n12_jv9q" name="n12" src="afrpx" xy="627,445" group="n20_rlg6"/>
+    <component id="n13_jv9q" name="n13" src="afrpy" xy="725,445" group="n20_rlg6"/>
+    <text id="n14_jv9q" name="n14" xy="662,453" size="65,27" group="n20_rlg6" font="等线" fontSize="18" autoSize="none" text="换一换"/>
+    <list id="n15_jv9q" name="n15" xy="217,172" size="598,285" group="n20_rlg6" layout="flow_hz" overflow="scroll" defaultItem="ui://dynfvg1hgzby2e">
       <item/>
       <item/>
       <item/>
@@ -17,5 +20,9 @@
       <item/>
       <item/>
     </list>
+    <component id="n19_rlg6" name="n19" src="jv9q1f" xy="703,84" size="65,66" group="n20_rlg6"/>
+    <group id="n20_rlg6" name="n20" xy="217,84" size="598,402" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
   </displayList>
 </component>

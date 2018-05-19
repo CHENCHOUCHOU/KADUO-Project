@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="800,600" bgColorEnabled="true">
   <displayList>
-    <image id="n0_jv9q" name="n0" src="afrp1" xy="6,4" size="113,108"/>
-    <text id="n1_jv9q" name="n1" xy="105,45" size="258,89" font="Bauhaus 93" fontSize="60" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
+    <image id="n0_jv9q" name="n0" src="afrp1" xy="6,4" size="113,108" group="n14_rlg6"/>
+    <text id="n1_jv9q" name="n1" xy="105,45" size="258,89" group="n14_rlg6" font="Bauhaus 93" fontSize="60" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
       <relation target="n0_jv9q" sidePair="left-left,top-top"/>
     </text>
-    <text id="n2_jv9q" name="n2" xy="385,74" size="411,59" font="等线" fontSize="50" autoSize="none" bold="true" text="装饰商城"/>
-    <text id="n8_jv9q" name="n8" xy="57,159" size="117,39" fontSize="23" autoSize="none" text="饰品分类"/>
-    <list id="n9_jv9q" name="n9" xy="246,178" size="530,274" layout="flow_hz" overflow="scroll" defaultItem="ui://dynfvg1hgzby2e">
+    <group id="n14_rlg6" name="n14" xy="6,4" size="357,130" advanced="true">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </group>
+    <text id="n2_jv9q" name="n2" xy="395,108" size="215,59" group="n15_rlg6" font="等线" fontSize="50" autoSize="none" bold="true" text="装饰商城"/>
+    <text id="n8_jv9q" name="n8" xy="67,193" size="117,39" group="n15_rlg6" fontSize="23" autoSize="none" text="饰品分类"/>
+    <list id="n9_jv9q" name="n9" xy="256,212" size="530,274" group="n15_rlg6" layout="flow_hz" overflow="scroll" defaultItem="ui://dynfvg1hgzby2e">
       <item/>
       <item/>
       <item/>
@@ -17,14 +20,18 @@
       <item/>
       <item/>
     </list>
-    <list id="n10_jv9q" name="n10" xy="108,227" size="46,300" overflow="scroll" lineGap="19">
+    <list id="n10_jv9q" name="n10" xy="118,261" size="46,300" group="n15_rlg6" overflow="scroll" lineGap="19">
       <item url="ui://dynfvg1hjv9q22"/>
       <item url="ui://dynfvg1hjv9q23"/>
       <item url="ui://dynfvg1hjv9q24"/>
       <item url="ui://dynfvg1hjv9q25"/>
     </list>
-    <component id="n11_jv9q" name="n11" src="afrpx" xy="621,458"/>
-    <component id="n12_jv9q" name="n12" src="afrpy" xy="719,458"/>
-    <text id="n13_jv9q" name="n13" xy="654,465" size="65,27" font="等线" fontSize="18" autoSize="none" text="换一换"/>
+    <component id="n11_jv9q" name="n11" src="afrpx" xy="631,492" group="n15_rlg6"/>
+    <component id="n17_rlg6" name="backButton" src="jv9q1f" xy="713,102" size="65,66" group="n15_rlg6"/>
+    <component id="n12_jv9q" name="n12" src="afrpy" xy="729,492" group="n15_rlg6"/>
+    <text id="n13_jv9q" name="n13" xy="664,499" size="65,27" group="n15_rlg6" font="等线" fontSize="18" autoSize="none" text="换一换"/>
+    <group id="n15_rlg6" name="n15" xy="67,101" size="719,459" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
   </displayList>
 </component>
