@@ -7,6 +7,7 @@ public class SceneController : MonoBehaviour {
     static public bool characterOn;
     static public bool foodOn;
     
+
 	// Use this for initialization
 	void Start () {
         

@@ -3,14 +3,13 @@ SceneListBegin?
 Assets/Scenes/StartScene.unity
 Assets/Scenes/signInScene.unity
 Assets/Scenes/mainScene.unity
+Assets/Scenes/authenticationScene.unity
 Assets/Scenes/playScene.unity
 Assets/Scenes/photoScene.unity
 Assets/Scenes/storeScene.unity
 SceneListEnd?
-922dde826533f20a40eadb188df86725 Assembly-CSharp.dll:.TestReporter
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Authenticate
 268ef825502a475f763a8f3739ab652c Assembly-CSharp.dll:.VRIntegrationHelper
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ReporterGUI
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ReporterMessageReceiver
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -126,8 +125,8 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 ae4dd03a41a388438bde6afa031544ce Assembly-CSharp.dll:FairyGUI.StageCamera
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.DefaultInitializationErrorHandler
-1cb40c746a01332eb78618e045b0b5a9 Assembly-CSharp.dll:.Reporter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayTo
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StoreTo
 215f21c984a05428dd33c8419e0a1c57 Assembly-CSharp.dll:Vuforia.SurfaceBehaviour
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -171,6 +170,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.DefaultTrackableEventHandler
 f67e4dccde37b3c42d067b6bf680c32e Assembly-CSharp.dll:Vuforia.TextRecoBehaviour
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PhotoLoad
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -191,9 +191,9 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 69d7d01d14b2cb1bf7ea22ff94f3abfc Assembly-CSharp.dll:Vuforia.DefaultSmartTerrainEventHandler
 a86d6d162fc3bb721ae5223e1944c6d5 Assembly-CSharp.dll:FairyGUI.StageEngine
 1fb2257325ae73aa275c7baeaaa2c163 Assembly-CSharp.dll:FairyGUI.UIContentScaler
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Rotate
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour
-bfcfab3fcb964ffc16f64598b9524bcd Assembly-CSharp.dll:.FindTarget
+429e283dae4aa4636b32918e4ad55438 Assembly-CSharp.dll:.FindTarget
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NewBehaviourScript
 f266a453cd4bfbe81533762a3e3589f4 DOTween.dll:DG.Tweening.Core.DOTweenComponent
 0b269eddb7d77b913f99ea770bf1912a DOTween.dll:DG.Tweening.Core.DOTweenSettings
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration

@@ -58,7 +58,6 @@
      <Compile Include="Assets\FairyGUI\Scripts\Editor\UIContentScalerEditor.cs" />
      <Compile Include="Assets\FairyGUI\Scripts\Editor\UIPainterEditor.cs" />
      <Compile Include="Assets\FairyGUI\Scripts\Editor\UIPanelEditor.cs" />
-     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
