@@ -39,7 +39,6 @@
     <component id="jv9q19" name="Button11.xml" path="/"/>
     <component id="jv9q1a" name="Button12.xml" path="/"/>
     <image id="jv9q1b" name="服装市场.png" path="/"/>
-    <component id="jv9q1d" name="Button13.xml" path="/"/>
     <image id="jv9q1e" name="返回.png" path="/"/>
     <component id="jv9q1f" name="Button14.xml" path="/"/>
     <image id="jv9q1g" name="37-下扩展箭头.png" path="/"/>
@@ -56,10 +55,7 @@
     <image id="gzby2b" name="1.png" path="/"/>
     <image id="gzby2c" name="2.png" path="/"/>
     <image id="gzby2d" name="3.png" path="/"/>
-    <component id="gzby2e" name="Item.xml" path="/"/>
-    <image id="ks802h" name="i0.PNG" path="/" exported="true"/>
-    <image id="ks802i" name="i1.PNG" path="/" exported="true"/>
-    <image id="ks802j" name="i2.PNG" path="/" exported="true"/>
+    <component id="gzby2e" name="Item.xml" path="/" exported="true"/>
     <component id="dddl2o" name="authenticationpage.xml" path="/" exported="true"/>
     <image id="dddl32" name="确定1.PNG" path="/"/>
     <image id="dddl33" name="重置1.PNG" path="/"/>
@@ -70,6 +66,48 @@
     <image id="dddl38" name="next.png" path="/"/>
     <component id="dddl39" name="Button21.xml" path="/"/>
     <image id="rlg63a" name="皮卡丘-2(1).png" path="/"/>
+    <image id="r7x83b" name="返回(1).png" path="/"/>
+    <image id="r7x83c" name="服装.png" path="/"/>
+    <image id="r7x83d" name="拍照(1).png" path="/"/>
+    <image id="r7x83e" name="相册(1).png" path="/"/>
+    <component id="r7x83f" name="Button22.xml" path="/"/>
+    <component id="r7x83g" name="Button23.xml" path="/"/>
+    <component id="r7x83h" name="Button24.xml" path="/"/>
+    <component id="r7x83i" name="Button25.xml" path="/"/>
+    <image id="r7x83j" name="退出登录.PNG" path="/"/>
+    <component id="r7x83k" name="Button26.xml" path="/"/>
+    <component id="bto63m" name="commodityWindow.xml" path="/" exported="true"/>
+    <image id="bto63n" name="5.png" path="/"/>
+    <image id="bto63o" name="0.png" path="/"/>
+    <component id="bto63p" name="windowFrame.xml" path="/" exported="true"/>
+    <component id="bto63q" name="ButtonClose.xml" path="/" exported="true"/>
+    <image id="bto63r" name="13.png" path="/"/>
+    <image id="bto63y" name="b4.png" path="/"/>
+    <image id="bto63z" name="b5.png" path="/"/>
+    <image id="poyj42" name="道具产品.png" path="/"/>
+    <component id="poyj43" name="Button27.xml" path="/"/>
+    <component id="poyj44" name="main.xml" path="/"/>
+    <component id="poyj45" name="BagWindow.xml" path="/" exported="true"/>
+    <component id="poyj46" name="WindowFrame1.xml" path="/" exported="true"/>
+    <image id="poyj47" name="BagBackground.png" path="/"/>
+    <component id="hvub48" name="buyButton.xml" path="/" exported="true"/>
+    <image id="vylu49" name="s0.PNG" path="/" exported="true"/>
+    <image id="mymw4e" name="i0.PNG" path="/" exported="true"/>
+    <image id="mymw4f" name="i1.PNG" path="/" exported="true"/>
+    <image id="mymw4g" name="i2.PNG" path="/" exported="true"/>
+    <component id="uoyg4h" name="WindowFrame2.xml" path="/"/>
+    <image id="uoyg4j" name="PopWindowPic.PNG" path="/"/>
+    <component id="uoyg4k" name="FailWindow.xml" path="/" exported="true"/>
+    <component id="uoyg4l" name="Button28.xml" path="/"/>
+    <component id="uoyg4n" name="Button29.xml" path="/"/>
+    <image id="pahz4p" name="确定.PNG" path="/"/>
+    <component id="pahz4q" name="Button30.xml" path="/"/>
+    <component id="pahz4r" name="WindowFrame3.xml" path="/"/>
+    <component id="pahz4s" name="SuccessWindow.xml" path="/" exported="true"/>
+    <component id="pahz4t" name="WindowFrame4.xml" path="/"/>
+    <component id="pahz4u" name="CheckFailWindow1.xml" path="/" exported="true"/>
+    <component id="pahz4v" name="WindowFrame5.xml" path="/"/>
+    <component id="pahz4w" name="CheckFailWindow2.xml" path="/" exported="true"/>
   </resources>
   <publish name="Package1"/>
 </packageDescription>

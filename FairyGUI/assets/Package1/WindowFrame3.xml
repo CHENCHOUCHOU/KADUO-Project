@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,341">
+  <displayList>
+    <image id="n0_pahz" name="n0" src="uoyg4j" xy="0,1"/>
+    <text id="n1_pahz" name="n1" xy="135,109" size="242,61" font="华文琥珀" fontSize="55" color="#ffffff" autoSize="none" bold="true" text="登录成功"/>
+  </displayList>
+</component>

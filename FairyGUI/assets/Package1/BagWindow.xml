@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="615,387">
+  <displayList>
+    <component id="n0_poyj" name="frame" src="poyj46" xy="-1,1"/>
+    <list id="n1_poyj" name="n1" xy="108,65" size="409,279" layout="flow_hz" overflow="scroll" defaultItem="ui://dynfvg1hgzby2e">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

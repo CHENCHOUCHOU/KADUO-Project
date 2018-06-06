@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using FairyGUI;
 using UnityEngine.SceneManagement;
-
+using System.IO;
 public class PhotoLoad : MonoBehaviour
 {
 
@@ -9,12 +9,11 @@ public class PhotoLoad : MonoBehaviour
     private GComponent mainUI;
     void Start()
     {
-        
+      
     }
 
     void Update()
     {
-       
         mainUI = GetComponent<UIPanel>().ui;
         GButton backButton = mainUI.GetChild("n19").asButton;
         list = mainUI.GetChild("n15").asList;
@@ -37,8 +36,7 @@ public class PhotoLoad : MonoBehaviour
         private void RenderListItem(int index, GObject obj)
         {
             GButton button = obj.asButton;
-           // button.icon =  "/sdcard/DCIM/Camera/ScreenPhotos/i" + index;
-            button.icon =  "photos/i" + index;
+            button.icon = "photos/i"  + index;
             button.title = index.ToString();
         }
 

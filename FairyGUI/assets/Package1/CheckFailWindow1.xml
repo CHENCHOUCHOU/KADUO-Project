@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,341">
+  <displayList>
+    <component id="n0_pahz" name="frame" src="pahz4t" xy="0,0"/>
+    <component id="n2_pahz" name="n2" src="pahz4q" xy="142,226"/>
+  </displayList>
+</component>

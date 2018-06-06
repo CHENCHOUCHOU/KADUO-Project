@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,341">
+  <displayList>
+    <image id="n3_uoyg" name="Background" src="uoyg4j" xy="1,1"/>
+    <text id="n2_uoyg" name="n2" xy="132,107" size="242,61" font="华文琥珀" fontSize="55" color="#ffffff" autoSize="none" bold="true" text="登录失败"/>
+  </displayList>
+</component>

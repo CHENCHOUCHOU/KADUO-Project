@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="800,600" bgColorEnabled="true">
   <displayList>
-    <component id="n8_jv9q" name="n8" src="jv9q1d" xy="45,218" size="91,89">
-      <relation target="" sidePair="left-left%,middle-middle%"/>
-    </component>
-    <text id="n3_jv9q" name="n3" xy="114,38" size="97,75" group="n12_rlg6" font="Century Gothic" fontSize="17" leading="-1" autoSize="none" bold="true" text="pikachu&#xA;&#xA;2 months"/>
-    <image id="n10_rlg6" name="n10" src="rlg63a" xy="4,-4" size="113,127" group="n12_rlg6"/>
-    <group id="n12_rlg6" name="n12" xy="4,-4" size="207,127" group="n13_rlg6"/>
-    <group id="n13_rlg6" name="n13" xy="4,-4" size="207,127" advanced="true">
+    <text id="n3_jv9q" name="n3" xy="114,40" size="97,75" group="n12_rlg6" font="Century Gothic" fontSize="17" leading="-1" autoSize="none" bold="true" text="pikachu&#xA;&#xA;2 months"/>
+    <image id="n10_rlg6" name="n10" src="rlg63a" xy="4,-2" size="113,127" group="n12_rlg6"/>
+    <group id="n12_rlg6" name="n12" xy="4,-2" size="207,127" group="n13_rlg6" collapsed="true"/>
+    <group id="n13_rlg6" name="n13" xy="4,-2" size="207,127" advanced="true" collapsed="true">
       <relation target="" sidePair="left-left%,top-top%"/>
     </group>
-    <component id="n6_jv9q" name="n6" src="jv9q19" xy="678,237" size="65,66" group="n14_rlg6">
-      <relation target="n7_jv9q" sidePair="left-left%,top-top"/>
+    <component id="n18_r7x8" name="n6" src="r7x83g" xy="664,187" size="72,70" group="n14_rlg6"/>
+    <component id="n21_poyj" name="n21" src="poyj43" xy="664,410" size="72,70" group="n14_rlg6">
+      <relation target="n19_r7x8" sidePair="left-left,top-top"/>
     </component>
-    <component id="n7_jv9q" name="n7" src="jv9q1a" xy="682,345" size="61,50" group="n14_rlg6"/>
-    <component id="n9_jv9q" name="n9" src="jv9q1f" xy="678,139" size="65,66" group="n14_rlg6">
-      <relation target="n6_jv9q" sidePair="left-left,top-top"/>
-    </component>
-    <group id="n14_rlg6" name="n14" xy="678,139" size="65,256" advanced="true">
+    <component id="n19_r7x8" name="n7" src="r7x83h" xy="672,310" size="61,47" group="n14_rlg6"/>
+    <component id="n20_r7x8" name="n9" src="r7x83i" xy="670,78" size="59,59" group="n14_rlg6"/>
+    <group id="n14_rlg6" name="n14" xy="664,78" size="72,402" advanced="true" collapsed="true">
       <relation target="" sidePair="right-right%,middle-middle%"/>
     </group>
+    <component id="n17_r7x8" name="n8" src="r7x83f" xy="45,243" size="78,67"/>
   </displayList>
 </component>

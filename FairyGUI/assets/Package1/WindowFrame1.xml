@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="615,387" initName="W">
+  <displayList>
+    <image id="n0_poyj" name="n0" src="poyj47" xy="5,-2"/>
+    <graph id="n2_poyj" name="dragArea" xy="50,5" size="471,43"/>
+    <component id="n1_poyj" name="closeButton" src="bto63q" xy="525,-1"/>
+  </displayList>
+</component>

@@ -2,33 +2,35 @@
 <component size="800,600" bgColorEnabled="true">
   <displayList>
     <image id="n0_afrp" name="n0" src="afrp1" xy="20,19" size="113,108" group="n44_rlg6"/>
-    <text id="n1_afrp" name="n1" xy="119,60" size="258,89" group="n44_rlg6" font="Bauhaus 93" fontSize="60" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
+    <text id="n1_afrp" name="n1" xy="136,60" size="258,89" group="n44_rlg6" font="Bauhaus 93" fontSize="60" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
       <relation target="n0_afrp" sidePair="left-left,top-top"/>
     </text>
-    <group id="n44_rlg6" name="n44" xy="20,19" size="357,130" advanced="true">
+    <group id="n44_rlg6" name="n44" xy="20,19" size="374,130" advanced="true">
       <relation target="" sidePair="left-left%,top-top%"/>
     </group>
-    <image id="n5_afrp" name="n5" src="afrpm" xy="78,153" size="82,80" group="n45_rlg6"/>
-    <text id="n6_afrp" name="n6" xy="168,162" size="89,24" group="n45_rlg6" font="等线" fontSize="17" autoSize="none" text="陈抽抽"/>
-    <text id="n7_afrp" name="n7" xy="167,200" size="128,24" group="n45_rlg6" font="等线" fontSize="17" autoSize="none" text="Chen Chouchou"/>
-    <component id="n9_afrp" name="n9" src="afrpq" xy="262,156" size="27,27" group="n45_rlg6"/>
-    <text id="n10_afrp" name="n10" xy="327,163" size="120,31" group="n45_rlg6" font="等线" fontSize="22" autoSize="none" bold="true" text="已激活宠物"/>
-    <text id="n21_afrp" name="n21" xy="355,374" size="56,31" group="n45_rlg6" font="等线" fontSize="22" autoSize="none" bold="true" text="添加"/>
-    <component id="n22_afrp" name="addButton" src="afrp11" xy="319,412" group="n45_rlg6"/>
-    <component id="n30_spsx" name="n30" src="afrpx" xy="597,727" group="n45_rlg6"/>
-    <component id="n31_spsx" name="n31" src="afrpy" xy="695,727" group="n45_rlg6"/>
-    <text id="n32_spsx" name="n32" xy="632,735" size="65,27" group="n45_rlg6" font="等线" fontSize="18" autoSize="none" text="换一换"/>
-    <component id="n34_spsx" name="n34" src="afrpx" xy="648,340" group="n45_rlg6"/>
-    <component id="n35_spsx" name="n35" src="afrpy" xy="737,340" group="n45_rlg6"/>
-    <text id="n36_spsx" name="n36" xy="682,348" size="58,27" group="n45_rlg6" font="等线" fontSize="18" autoSize="none" text="换一换"/>
-    <list id="n37_spsx" name="ItemList" xy="320,203" size="402,136" group="n45_rlg6" layout="flow_hz" overflow="scroll" lineGap="4" lineItemCount="7" defaultItem="ui://dynfvg1hgzby2e">
+    <text id="n6_afrp" name="n6" xy="79,201" size="57,24" group="n45_rlg6" font="等线" fontSize="17" autoSize="none" text="陈抽抽"/>
+    <text id="n10_afrp" name="n10" xy="326,168" size="120,31" group="n45_rlg6" font="等线" fontSize="22" autoSize="none" bold="true" text="已激活宠物"/>
+    <text id="n21_afrp" name="n21" xy="354,379" size="56,31" group="n45_rlg6" font="等线" fontSize="22" autoSize="none" bold="true" text="添加"/>
+    <component id="n22_afrp" name="addButton" src="afrp11" xy="318,417" group="n45_rlg6"/>
+    <component id="n30_spsx" name="n30" src="afrpx" xy="596,732" group="n45_rlg6"/>
+    <component id="n31_spsx" name="n31" src="afrpy" xy="694,732" group="n45_rlg6"/>
+    <text id="n32_spsx" name="n32" xy="631,740" size="65,27" group="n45_rlg6" font="等线" fontSize="18" autoSize="none" text="换一换"/>
+    <component id="n34_spsx" name="n34" src="afrpx" xy="647,345" group="n45_rlg6"/>
+    <component id="n35_spsx" name="n35" src="afrpy" xy="736,345" group="n45_rlg6"/>
+    <text id="n36_spsx" name="n36" xy="681,353" size="58,27" group="n45_rlg6" font="等线" fontSize="18" autoSize="none" text="换一换"/>
+    <list id="n37_spsx" name="ItemList" xy="319,208" size="417,136" group="n45_rlg6" layout="flow_hz" overflow="scroll" lineGap="4" lineItemCount="7" defaultItem="ui://dynfvg1hgzby2e">
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n43_dddl" name="playButton" src="dddl39" xy="584,398" size="148,146" group="n45_rlg6"/>
-    <group id="n45_rlg6" name="n45" xy="78,153" size="697,615" advanced="true">
+    <component id="n43_dddl" name="playButton" src="dddl39" xy="583,403" size="148,146" group="n45_rlg6"/>
+    <text id="n48_vdd7" name="n48" xy="76,168" size="117,29" group="n45_rlg6" fontSize="22" autoSize="none" text="Welcome !"/>
+    <group id="n45_rlg6" name="n45" xy="76,168" size="698,605" advanced="true">
       <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n46_r7x8" name="n46" src="r7x83k" xy="676,39" size="60,30" group="n47_r7x8"/>
+    <group id="n47_r7x8" name="n47" xy="676,39" size="60,30" advanced="true">
+      <relation target="" sidePair="right-right%,top-top%"/>
     </group>
   </displayList>
 </component>

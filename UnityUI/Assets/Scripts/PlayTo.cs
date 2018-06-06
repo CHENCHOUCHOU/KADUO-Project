@@ -3,11 +3,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using System.IO;
-//using System.Drawing;
+
 public class PlayTo : MonoBehaviour
 {
 
     private GComponent mainUI;
+    private BagWindow bagWindow;
     // Use this for initialization
     void Start()
     {
@@ -17,6 +18,9 @@ public class PlayTo : MonoBehaviour
         GButton store = mainUI.GetChild("n8").asButton;
         GButton back = mainUI.GetChild("n9").asButton;
         GButton camera = mainUI.GetChild("n6").asButton;
+        GButton bagButton = mainUI.GetChild("n21").asButton;
+        bagWindow = new BagWindow();
+
 
         photo.onClick.Set((EventContext) => {
             SceneManager.LoadSceneAsync("PhotoScene");
@@ -29,7 +33,12 @@ public class PlayTo : MonoBehaviour
         });
 
         camera.onClick.Set((EventContext) => {
-            StartCoroutine(UploadPNG());
+           StartCoroutine(UploadPNG());
+        });
+
+       bagButton .onClick.Set((EventContext) => {
+               bagWindow.SetXY((Screen.width-bagWindow.width)/2,(Screen.height-bagWindow.height)/2);
+	bagWindow.Show();
         });
     }
 
@@ -57,19 +66,18 @@ public class PlayTo : MonoBehaviour
         byte[] bytes = tex.EncodeToPNG();
         // 销毁无用的图片纹理
         Destroy(tex);
-        int count = 0;
-        DirectoryInfo dir = new DirectoryInfo(Application.dataPath + "/Resources/photos");
-        foreach (FileInfo FI in dir.GetFiles())
-        {
+       int count = 0;
+	  DirectoryInfo dir = new DirectoryInfo(Application.streamingAssetsPath + "/Resources/photos");
+      foreach (FileInfo FI in dir.GetFiles())
+       {
             // 这里写文件格式
-            if (System.IO.Path.GetExtension(FI.Name) == ".PNG")
-            {
-                count++;
-            }
+        if (System.IO.Path.GetExtension(FI.Name) == ".PNG")
+        {
+             count++;
         }
+      }
         string photoName = "i" + count + ".PNG";
-
-        File.WriteAllBytes(Application.dataPath + "/Resources/photos/" + photoName, bytes);
+        File.WriteAllBytes(Application.streamingAssetsPath + "/Resources/photos/" + photoName, bytes);
     }
 
 
@@ -110,7 +118,7 @@ public class PlayTo : MonoBehaviour
     //         }
     //         string photoName = "i" + count + ".PNG";
     //         string filename = destination + "/" + photoName;
-    //         KiResizeImage(new Bitmap(image), 130, 128).Save(filename, System.Drawing.Imaging.ImageFormat.PNG);
+    //         KiResizeImage(new Bitmap(image), 120, 120).Save(filename, System.Drawing.Imaging.ImageFormat.PNG);
 
     //     }
     // }
@@ -148,3 +156,4 @@ public class PlayTo : MonoBehaviour
 
 
 }
+

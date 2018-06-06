@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="800,600" bgColorEnabled="true">
   <displayList>
-    <text id="n1_afrp" name="n1" xy="332,219" size="272,93" group="n5_rlg6" font="Bauhaus 93" fontSize="70" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
+    <text id="n1_afrp" name="n1" xy="335,222" size="272,93" group="n5_rlg6" font="Bauhaus 93" fontSize="70" leading="26" autoSize="none" bold="true" strokeColor="#000000" strokeSize="0" text="KADUO">
       <relation target="n0_afrp" sidePair="left-left,top-top"/>
     </text>
-    <component id="n2_afrp" name="n2" src="afrp4" xy="236,375" group="n5_rlg6"/>
-    <component id="n3_afrp" name="n3" src="afrp7" xy="461,375" size="113,66" group="n5_rlg6"/>
-    <image id="n0_afrp" name="n0" src="afrp1" xy="206,167" size="127,116" group="n5_rlg6">
+    <component id="n2_afrp" name="n2" src="afrp4" xy="232,376" group="n5_rlg6"/>
+    <component id="n3_afrp" name="n3" src="afrp7" xy="457,376" size="113,66" group="n5_rlg6"/>
+    <image id="n0_afrp" name="n0" src="afrp1" xy="202,170" size="119,116" group="n5_rlg6">
       <relation target="" sidePair="left-left%,top-top"/>
     </image>
-    <group id="n5_rlg6" name="n5" xy="206,167" size="398,274" advanced="true">
+    <group id="n5_rlg6" name="n5" xy="202,170" size="405,272" advanced="true">
       <relation target="" sidePair="center-center,middle-middle"/>
     </group>
   </displayList>

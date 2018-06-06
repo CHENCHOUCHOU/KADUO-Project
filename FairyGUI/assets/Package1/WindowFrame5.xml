@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,341">
+  <displayList>
+    <image id="n0_pahz" name="n0" src="uoyg4j" xy="0,0"/>
+    <text id="n1_pahz" name="n1" xy="140,81" size="229,61" font="华文琥珀" fontSize="55" color="#ffffff" autoSize="none" bold="true" text="验证失败"/>
+    <text id="n2_pahz" name="n2" xy="174,157" size="159,34" font="微软雅黑" fontSize="22" bold="true" text="对应宠物已激活"/>
+  </displayList>
+</component>

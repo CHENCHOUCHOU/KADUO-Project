@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="800,600" bgColorEnabled="true">
+<component size="800,600" bgColorEnabled="true" adaptationTest="FitSize">
   <displayList>
     <image id="n0_jv9q" name="n0" src="jv9q16" xy="2,2" size="129,124" group="n16_rlg6"/>
     <text id="n1_jv9q" name="n1" xy="109,40" size="97,75" group="n16_rlg6" font="Century Gothic" fontSize="17" leading="-1" autoSize="none" bold="true" text="pikachu&#xA;&#xA;2 months"/>
