@@ -14,11 +14,15 @@ public class ActivePets : MonoBehaviour {
 			 mainUI = GetComponent<UIPanel>().ui;
 			  //从文件读取获得已激活的宠物id数组
 			 Mytxt = ReadFile(Application.streamingAssetsPath+"/Resources/active_pets.txt");
+			 Debug.Log(Mytxt);
 			 midArray = Mytxt.Split(new char[]{'\n'});
-			
-			for(int i=0;i<midArray.Length-1;i++){
+			 for(int i=0;i<midArray.Length;i++){Debug.Log("m"+i + midArray[i]);}
+			 
+			 
+			for(int i=0;i<midArray.Length;i++){
 			midArray[i] = midArray[i].Replace("\r", "");
 			global.activePets[i] = midArray[i];
+			
 			}
 			 list =  mainUI.GetChild("ItemList").asList;
              list.itemRenderer =  RenderListItem;
@@ -45,11 +49,12 @@ private void RenderListItem(int index,GObject obj){
 	 
 	public string ReadFile(string textPath) {
 		
-			byte[] dataBytes=new byte[10];  
+			byte[] dataBytes=new byte[12];  
             FileStream file = new FileStream(textPath, FileMode.Open);  
             file.Seek(0, SeekOrigin.Begin);  
-            file.Read(dataBytes, 0, 10);  
-            string readtext = Encoding.Default.GetString(dataBytes);  
+            file.Read(dataBytes, 0, 12);  
+            string readtext = Encoding.Default.GetString(dataBytes); 
+			Debug.Log(readtext);			
             file.Close();  
             return readtext;  
         } 

@@ -45,7 +45,7 @@ private void RenderListItem(int index,GObject obj){
 private void ClickItem(GButton button)
 {
 	
-	commodityWindow.SetXY(150,80);
+	commodityWindow.SetXY(170,100);
 	commodityWindow.Show(); 
 	
 }

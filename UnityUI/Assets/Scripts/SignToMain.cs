@@ -24,10 +24,10 @@ public class SignToMain : MonoBehaviour
         login.onClick.Set((EventContext) => {
 			
 			//登录失败的弹框
-           // loginFailTipWindow.SetXY(Screen.width-loginSuccessWindow.width)/2,(Screen.height-loginSuccessWindow.height)/2);
+           // loginFailTipWindow.SetXY(170,150);
             //loginFailTipWindow.Show();
 			//登录成功的弹框
-			loginSuccessWindow.SetXY((Screen.width-loginSuccessWindow.width)/2,(Screen.height-loginSuccessWindow.height)/2);
+			loginSuccessWindow.SetXY(170,150);
 			loginSuccessWindow.Show();
 			
 			

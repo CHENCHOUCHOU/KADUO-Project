@@ -11,7 +11,6 @@ public class MainToPlay : MonoBehaviour
         mainUI = GetComponent<UIPanel>().ui;
         GButton playButton = mainUI.GetChild("playButton").asButton;
         GButton addButton = mainUI.GetChild("addButton").asButton;
-        GButton backButton = mainUI.GetChild("n46").asButton;
 
 
         playButton.onClick.Set((EventContext) =>
@@ -23,11 +22,6 @@ public class MainToPlay : MonoBehaviour
         addButton.onClick.Set((EventContext) =>
         {
             SceneManager.LoadSceneAsync("authenticationScene");
-        });
-
-         backButton.onClick.Set((EventContext) =>
-        {
-            SceneManager.LoadSceneAsync("SignInScene");
         });
     }
 

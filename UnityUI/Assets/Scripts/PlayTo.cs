@@ -37,7 +37,7 @@ public class PlayTo : MonoBehaviour
         });
 
        bagButton .onClick.Set((EventContext) => {
-               bagWindow.SetXY((Screen.width-bagWindow.width)/2,(Screen.height-bagWindow.height)/2);
+               bagWindow.SetXY(120,80);
 	bagWindow.Show();
         });
     }
