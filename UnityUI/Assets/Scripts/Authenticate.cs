@@ -39,9 +39,10 @@ public class Authenticate : MonoBehaviour
                 {
 					flag = 1;
 					global.pet_id_global = line[x+1];
-					//如果宠物的id已经存储，则提示宠物已激活
-					Mytxt = ReadFile(Application.streamingAssetsPath+"/Resources/active_pets.txt");
-					midArray = Mytxt.Split(new char[]{'\n'});
+                    //如果宠物的id已经存储，则提示宠物已激活
+                    //Mytxt = ReadFile(Application.streamingAssetsPath+"/Resources/active_pets.txt");
+                     Mytxt = File.ReadAllText(Application.persistentDataPath + "/active_pets.txt"); 
+                     midArray = Mytxt.Split(new char[]{'\n'});
 					//i0,i1,
 				    int flag1 = 0;
 				for(int i=0;i<midArray.Length;i++)
@@ -60,7 +61,7 @@ public class Authenticate : MonoBehaviour
 				}
 				 if(flag1==0){
 					//将激活的宠物id写入文件中
-					CreateOrOPenFile(Application.streamingAssetsPath+"/Resources","active_pets.txt",global.pet_id_global);
+					CreateOrOPenFile(Application.persistentDataPath ,"active_pets.txt",global.pet_id_global);
                     line[x+1] = line[x+1].Replace("\r", "");
 					flag = 1;
                     SceneManager.LoadSceneAsync("mainScene");
@@ -108,7 +109,7 @@ public class Authenticate : MonoBehaviour
     }
 	
 		 
-	public string ReadFile(string textPath) {
+	/*public string ReadFile(string textPath) {
 		
 			byte[] dataBytes=new byte[12];  
             FileStream file = new FileStream(textPath, FileMode.Open);  
@@ -119,7 +120,7 @@ public class Authenticate : MonoBehaviour
             file.Close();  
             return readtext;  
         } 
-	
+	*/
 	void CreateOrOPenFile(string path, string name, string info){          //路径、文件名、写入内容
 	StreamWriter sw; 
 	FileInfo fi = new FileInfo(path + "//" + name);

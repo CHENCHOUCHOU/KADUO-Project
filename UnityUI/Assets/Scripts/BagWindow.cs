@@ -18,8 +18,8 @@ public class BagWindow : Window
 	{
 		
        	   this.contentPane = UIPackage.CreateObject("Package1","BagWindow").asCom;
-		   Mytxt = ReadFile(Application.streamingAssetsPath+"/Resources/bought_to_bag.txt");
-		   midArray = Mytxt.Split(new char[]{'\n'});
+		   Mytxt = File.ReadAllText(Application.persistentDataPath + "/bought_to_bag.txt");
+        midArray = Mytxt.Split(new char[]{'\n'});
 			
 			for(int i=0;i<midArray.Length-1;i++){
 			midArray[i] = midArray[i].Replace("\r", "");
@@ -50,7 +50,7 @@ public class BagWindow : Window
 		 } 
 	}
 	
-		public string ReadFile(string textPath) {
+	/*	public string ReadFile(string textPath) {
 		
 			byte[] dataBytes=new byte[10];  
             FileStream file = new FileStream(textPath, FileMode.Open);  
@@ -61,5 +61,5 @@ public class BagWindow : Window
             return readtext;  
         } 
 		
-	
+	*/
 }
