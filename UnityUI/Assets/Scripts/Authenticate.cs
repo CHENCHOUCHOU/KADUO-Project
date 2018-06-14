@@ -29,9 +29,8 @@ public class Authenticate : MonoBehaviour
             //文件
             Mytxt = Resources.Load("pet_code").ToString();
             int flag = 0;
+			int flag1 = 0;
             string[] line = Mytxt.Split(new char[2] { '#', '\n' });
-            for (int x = 0; x < line.Length; x++)
-                    Debug.Log(line[x]);
             for (int x = 0; x < line.Length; x++)
             {
                 //Debug.Log(line[x]);
@@ -44,24 +43,26 @@ public class Authenticate : MonoBehaviour
                      Mytxt = File.ReadAllText(Application.persistentDataPath + "/active_pets.txt"); 
                      midArray = Mytxt.Split(new char[]{'\n'});
 					//i0,i1,
-				    int flag1 = 0;
-				for(int i=0;i<midArray.Length;i++)
+				
+				for(int i=0;i<midArray.Length-1;i++)
 				{
-					midArray[i] = midArray[i].Replace("\r", "");
-					Debug.Log("H "+midArray[i]);
-					Debug.Log("global.pet_id_global "+global.pet_id_global);
 					
-					if(midArray[i]+"\r"==global.pet_id_global)
+					
+					if(midArray[i].Length!=0){string basecode = Base64Decode(midArray[i]);
+					//宠物id已激活
+					if(basecode==global.pet_id_global)
 					{
 						flag1 = 1;
 						Debug.Log("test");
 						checkFailWindow2.SetXY(170,150);
 						checkFailWindow2.Show();
 					}
+					}
 				}
 				 if(flag1==0){
 					//将激活的宠物id写入文件中
-					CreateOrOPenFile(Application.persistentDataPath ,"active_pets.txt",global.pet_id_global);
+					string id_encode = Base64Encode(global.pet_id_global);
+					CreateOrOPenFile(Application.persistentDataPath ,"active_pets.txt",id_encode);
                     line[x+1] = line[x+1].Replace("\r", "");
 					flag = 1;
                     SceneManager.LoadSceneAsync("mainScene");
@@ -129,4 +130,17 @@ public class Authenticate : MonoBehaviour
 	sw.Close();
 	sw.Dispose ();
 	}
+	
+		public static string Base64Encode(string value)
+        {
+            string result = System.Convert.ToBase64String(Encoding.Default.GetBytes(value));
+            return result;
+        }
+
+			public static string Base64Decode(string value)
+        {
+            string result = Encoding.Default.GetString(System.Convert.FromBase64String(value));
+            return result;
+        }
+	
 }

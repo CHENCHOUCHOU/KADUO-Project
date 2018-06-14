@@ -25,15 +25,18 @@ public class ActivePets : MonoBehaviour {
             string Mytxt = File.ReadAllText(Application.persistentDataPath + "/active_pets.txt");
             Debug.Log(Mytxt);
             midArray = Mytxt.Split(new char[] { '\n' });
-            for (int i = 0; i < midArray.Length; i++) { Debug.Log("m" + i + midArray[i]); }
 
+            for (int i = 0; i < midArray.Length-1; i++)
+        {
+               midArray[i] = midArray[i].Replace("\r", "");
+			
+			   if(midArray[i].Length!=0)
+			{  
+			   global.activePets[i] = Base64Decode(midArray[i]);
+		       global.activePets[i] = global.activePets[i].Replace("\r","");
+			}
+	    }
 
-            for (int i = 0; i < midArray.Length; i++)
-            {
-                midArray[i] = midArray[i].Replace("\r", "");
-                global.activePets[i] = midArray[i];
-
-            }
             list = mainUI.GetChild("ItemList").asList;
             list.itemRenderer = RenderListItem;
             list.numItems = 3;
@@ -60,22 +63,18 @@ private void RenderListItem(int index,GObject obj){
 				 button.icon =  UIPackage.GetItemURL("Package1",petId);
 		 }
 	 }
-	 
-	/*public string ReadFile(string textPath) {
-		
-			byte[] dataBytes=new byte[12];
-       // WWW www = new WWW(textPath);
+			public static string Base64Encode(string value)
+        {
+            string result = System.Convert.ToBase64String(Encoding.Default.GetBytes(value));
+            return result;
+        }
 
-        FileStream file = new FileStream(textPath, FileMode.Open);  
-        
-            file.Seek(0, SeekOrigin.Begin);  
-            file.Read(dataBytes, 0, 12);  
-            string readtext = Encoding.Default.GetString(dataBytes); 
-			Debug.Log(readtext);			
-            file.Close();  
-            return readtext;  
-        } 
-	*/
+			public static string Base64Decode(string value)
+        {
+            string result = Encoding.Default.GetString(System.Convert.FromBase64String(value));
+            return result;
+        }
+	
  
 }	
 	

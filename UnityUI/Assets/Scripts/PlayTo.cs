@@ -14,17 +14,12 @@ public class PlayTo : MonoBehaviour
     {
 
         mainUI = GetComponent<UIPanel>().ui;
-        GButton photo = mainUI.GetChild("n7").asButton;
         GButton store = mainUI.GetChild("n8").asButton;
         GButton back = mainUI.GetChild("n9").asButton;
         GButton camera = mainUI.GetChild("n6").asButton;
         GButton bagButton = mainUI.GetChild("n21").asButton;
         bagWindow = new BagWindow();
 
-
-        photo.onClick.Set((EventContext) => {
-            SceneManager.LoadSceneAsync("PhotoScene");
-        });
         store.onClick.Set((EventContext) => {
             SceneManager.LoadSceneAsync("StoreScene");
         });

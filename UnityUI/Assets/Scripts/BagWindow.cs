@@ -21,9 +21,11 @@ public class BagWindow : Window
 		   Mytxt = File.ReadAllText(Application.persistentDataPath + "/bought_to_bag.txt");
         midArray = Mytxt.Split(new char[]{'\n'});
 			
-			for(int i=0;i<midArray.Length-1;i++){
-			midArray[i] = midArray[i].Replace("\r", "");
-			global.in_bag[i] = midArray[i];
+			for(int i=0;i<midArray.Length-1;i++)
+			{
+				midArray[i] = midArray[i].Replace("\r", "");
+				global.in_bag[i] = 	Base64Decode(midArray[i]);
+				global.in_bag[i] = global.in_bag[i].Replace("\r","");
 			}
 			
       	  list = this.contentPane.GetChild("n1").asList;
@@ -50,16 +52,15 @@ public class BagWindow : Window
 		 } 
 	}
 	
-	/*	public string ReadFile(string textPath) {
-		
-			byte[] dataBytes=new byte[10];  
-            FileStream file = new FileStream(textPath, FileMode.Open);  
-            file.Seek(0, SeekOrigin.Begin);  
-            file.Read(dataBytes, 0, 10);  
-            string readtext = Encoding.Default.GetString(dataBytes);  
-            file.Close();  
-            return readtext;  
-        } 
-		
-	*/
+		public static string Base64Encode(string value)
+        {
+            string result = System.Convert.ToBase64String(Encoding.Default.GetBytes(value));
+            return result;
+        }
+
+        public static string Base64Decode(string value)
+        {
+            string result = Encoding.Default.GetString(System.Convert.FromBase64String(value));
+            return result;
+        }
 }

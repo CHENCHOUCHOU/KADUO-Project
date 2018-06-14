@@ -26,6 +26,7 @@ public class CommodityWindow : Window
 		buyButton.onClick.Set((EventContext) => {
 			//获取用户选择的道具ID
 			global.bag_id_global = "s0";
+			string bagEncode = Base64Encode(global.bag_id_global);
             //读出bag中的道具
             string path = Application.persistentDataPath + "/bought_to_bag.txt";
             if (File.Exists(path))
@@ -33,23 +34,21 @@ public class CommodityWindow : Window
                 Mytxt = File.ReadAllText(Application.persistentDataPath + "/bought_to_bag.txt");
                 //如果道具id与bag中的道具一样
                 string[] line = Mytxt.Split(new char[] { '\n' });
-                for (int i = 0; i < line.Length; i++)
-                {
-                    line[i] = line[i].Replace("\r", "");
-                    if ("s0" == line[i])
-                    {
-                        flag = 1;
-                        comBoughtWindow.SetXY(170, 150);
-                        comBoughtWindow.Show();
-                    }
-                    if (flag == 0)
-                    {
-                        CreateOrOPenFile(Application.persistentDataPath, "bought_to_bag.txt", global.bag_id_global);
-                        this.Hide();
-                    }
-                }
-
-               
+                for(int i=0;i<line.Length-1;i++)
+			 {
+				line[i] = line[i].Replace("\r", "");
+				if(bagEncode==line[i])
+				{
+					flag = 1;
+					comBoughtWindow.SetXY(170,150);
+					comBoughtWindow.Show();
+				}
+			 }
+			 if(flag == 0)
+			 {
+				CreateOrOPenFile(Application.persistentDataPath,"bought_to_bag.txt",bagEncode);
+				this.Hide();
+			 }
             }
             else
             {
@@ -89,20 +88,16 @@ void CreateOrOPenFile(string path, string name, string info){          //路径�
 	sw.Dispose ();
 	}
 	
-			 
-/*	public string ReadFile(string textPath) {
-		
-			byte[] dataBytes=new byte[12];  
-            FileStream file = new FileStream(textPath, FileMode.Open);  
-            file.Seek(0, SeekOrigin.Begin);  
-            file.Read(dataBytes, 0, 12);  
-            string readtext = Encoding.Default.GetString(dataBytes); 
-			Debug.Log(readtext);			
-            file.Close();  
-            return readtext;  
-        } 
-	
-	*/
-		
+		public static string Base64Encode(string value)
+        {
+            string result = System.Convert.ToBase64String(Encoding.Default.GetBytes(value));
+            return result;
+        }
+
+        public static string Base64Decode(string value)
+        {
+            string result = Encoding.Default.GetString(System.Convert.FromBase64String(value));
+            return result;
+        }
 	
 }
