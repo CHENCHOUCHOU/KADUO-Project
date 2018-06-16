@@ -5,27 +5,32 @@ using System.IO;
 using System.Text;
 public class CommodityWindow : Window
 {
-	private GameObject commodity;
+	private GButton commodity;
 	private ComBoughtWindow comBoughtWindow;
 	public string Mytxt;
 	
-	public CommodityWindow(GameObject commodity)
+	public CommodityWindow()
 	{
-		this.commodity = commodity;
+		//GButton buyViewButton
+		//this.commodity = buyViewButton;
 	}
 	
+	public void setButton(GButton button)
+	{
+	   this.commodity = button;
+	}
 	protected override void OnInit()
 	{
         this.contentPane = UIPackage.CreateObject("Package1","commodityWindow").asCom;
-		
-        GLoader loader = this.contentPane.GetChild("n8").asLoader;
-        loader.url = UIPackage.GetItemURL("Package1","s0");
-		comBoughtWindow = new ComBoughtWindow();
+	    GButton buyView = this.contentPane.GetChild("n15").asButton;
+	    buyView.icon = commodity.icon;
+		buyView.title = commodity.title;
+	    comBoughtWindow = new ComBoughtWindow();
 		GButton buyButton =  this.contentPane.GetChild("buyToBag").asButton;
 		int flag = 0;
 		buyButton.onClick.Set((EventContext) => {
 			//获取用户选择的道具ID
-			global.bag_id_global = "s0";
+			global.bag_id_global = buyView.title;
 			string bagEncode = Base64Encode(global.bag_id_global);
             //读出bag中的道具
             string path = Application.persistentDataPath + "/bought_to_bag.txt";
@@ -54,26 +59,6 @@ public class CommodityWindow : Window
             {
                 StreamWriter st = File.CreateText(path);
             }
-           
-            // Texture2D texture = new Texture2D(120,120);
-            /* string foundedImgPath = Application.streamingAssetsPath +"/Resources/store/" + imgName;
-             FileStream files = new FileStream(foundedImgPath, FileMode.Open);
-             byte[] imgByte = new byte[files.Length];
-             files.Read(imgByte, 0, imgByte.Length);
-             files.Close();
-             int count = 0;
-             DirectoryInfo dir = new DirectoryInfo(Application.persistentDataPath + "/Resources/bag");
-             foreach (FileInfo FI in dir.GetFiles())
-             {
-                 // 这里写文件格式
-                 if (System.IO.Path.GetExtension(FI.Name) == ".PNG")
-                 {
-                     count++;
-                 }
-             }
-             string photoName = "i" + count + ".PNG";
-             File.WriteAllBytes(Application.persistentDataPath + "/Resources/bag/"+ photoName, imgByte);
-             AssetDatabase.Refresh();*/
 
         });
     }

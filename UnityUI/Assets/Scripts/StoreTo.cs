@@ -7,8 +7,9 @@ public class StoreTo : MonoBehaviour {
     private GList list;
     private CommodityWindow commodityWindow;
     private GameObject commodity;
-	 
-    void Start () {
+	private GButton buyView;
+
+	void Start () {
 
        
     }
@@ -16,12 +17,12 @@ public class StoreTo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		mainUI = GetComponent<UIPanel>().ui;
-		commodityWindow = new CommodityWindow(commodity);
+		
 		list =  mainUI.GetChild("n9").asList;
         list.itemRenderer =  RenderListItem;
         list.numItems = 8;
         GButton backButton = mainUI.GetChild("backButton").asButton;
-
+		commodityWindow = new CommodityWindow();
         backButton.onClick.Set((EventContext) => {
             SceneManager.LoadSceneAsync("PlayScene");
         });
@@ -30,7 +31,7 @@ public class StoreTo : MonoBehaviour {
         {
 			GButton button = list.GetChildAt(i).asButton;
             button.onClick.Add((EventContext) => { 
-			ClickItem(button);
+			   ClickItem(button);
 			});
             
         }
@@ -40,11 +41,12 @@ public class StoreTo : MonoBehaviour {
 private void RenderListItem(int index,GObject obj){
          GButton button = obj.asButton;
          button.icon = UIPackage.GetItemURL("Package1","s"+index);
+		 button.title = "s"+index;
 }	
 
 private void ClickItem(GButton button)
 {
-	
+	commodityWindow.setButton(button);
 	commodityWindow.SetXY(170,100);
 	commodityWindow.Show(); 
 	

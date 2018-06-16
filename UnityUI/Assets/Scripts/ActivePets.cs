@@ -48,12 +48,14 @@ public class ActivePets : MonoBehaviour {
         }
          }
 	    void Update () {
-	   	 
-			
-	       }
+        //更新用户名
+        GTextField id = mainUI.GetChild("n6").asTextField;
+        id.text = global.id_global;
+
+    }
 
 
-private void RenderListItem(int index,GObject obj){
+    private void RenderListItem(int index,GObject obj){
 	     
          GButton button = obj.asButton;
 		 string petId = "i"+index;
