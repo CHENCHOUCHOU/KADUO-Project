@@ -14,17 +14,19 @@ public class FindTarget : MonoBehaviour {
     private Animator ani;
 
     private bool m_wantToEat;
-    private bool m_foodposition;
     private float m_hunger;
+
+    public GameObject origin;
+    public GameObject boy;
+    public GameObject girl;
 	// Use this for initialization
 	void Start () {
-        character = this.gameObject;
-        ani = this.transform.GetComponent<Animator>();
+        
+        ani = character.transform.GetComponent<Animator>();
         ani.SetBool("foodPosition", false);
-        chaCon = this.transform.GetComponent<CharacterController>();
+        chaCon = character.transform.GetComponent<CharacterController>();
 
         m_wantToEat = false;
-        m_foodposition = false;
         m_hunger = 15;
 	}
 	
@@ -37,7 +39,7 @@ public class FindTarget : MonoBehaviour {
             text.GetComponent<TextMesh>().text = "Found";
             character.transform.LookAt(target.transform);
             if (ani.GetBool("foodPosition")==false)
-            chaCon.Move(this.transform.forward * 70.0f * Time.deltaTime);
+            chaCon.Move(character.transform.forward * 70.0f * Time.deltaTime);
             ani.SetBool("foodTargetOn", true);
         }
         else if (SceneController.foodOn == false && m_wantToEat)
@@ -63,28 +65,11 @@ public class FindTarget : MonoBehaviour {
         HungerDec();
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.name == "Cheese")
-        {
-            m_foodposition = true;
-            ani.SetBool("foodPosition", true);
-
-        }
-       
-    }
-    void OnTriggerExit(Collider other)
-    {
-        if (other.name == "LeaveCheese")
-        {
-            m_foodposition = false;
-            ani.SetBool("foodPosition", false);
-        }
-    }
+    
 
     void HungerDec()
     {
-        if (m_foodposition == true && m_wantToEat)
+        if (SceneController.foodPosition == true && m_wantToEat)
         {
             m_hunger += 0.01f;
         }
@@ -100,5 +85,61 @@ public class FindTarget : MonoBehaviour {
         ani.SetFloat("hunger", m_hunger);
     }
 
-  
+    public void ChangePetSkinToOrigin()
+    {
+        Vector3 pos = character.transform.position;
+        Vector3 forwa = character.transform.forward;
+        
+        character.SetActive(false);
+        character = origin;
+        character.SetActive(true);
+
+        ani = character.GetComponent<Animator>(); 
+        ani.SetBool("foodPosition", SceneController.foodPosition);
+        ani.SetFloat("hunger", m_hunger);
+        ani.SetBool("foodTargetOn", SceneController.foodOn);
+        chaCon = character.transform.GetComponent<CharacterController>();
+        character.transform.position = pos;
+        character.transform.forward = forwa;
+        
+    }
+    public void ChangePetSkinToboy()
+    {
+        Vector3 pos = character.transform.position;
+        Vector3 forwa = character.transform.forward;
+        character.SetActive(false);
+        character = boy;
+        character.SetActive(true);
+
+        ani = character.GetComponent<Animator>();
+        ani.SetBool("foodPosition", SceneController.foodPosition);
+        ani.SetFloat("hunger", m_hunger);
+        ani.SetBool("foodTargetOn", SceneController.foodOn);
+        chaCon = character.transform.GetComponent<CharacterController>();
+        character.transform.position = pos;
+        character.transform.forward = forwa;
+        
+    }
+    public void ChangePetSkinTogirl()
+    {
+        Vector3 pos = character.transform.position;
+        Vector3 forwa = character.transform.forward;
+        character.SetActive(false);
+        character = girl;
+        character.SetActive(true);
+
+        ani = character.GetComponent<Animator>();
+        ani.SetBool("foodPosition", SceneController.foodPosition);
+        ani.SetFloat("hunger", m_hunger);
+        ani.SetBool("foodTargetOn", SceneController.foodOn);
+        chaCon = character.transform.GetComponent<CharacterController>();
+        character.transform.position = pos;
+        character.transform.forward = forwa;
+        
+    }
+
+    public void ResetPosition()
+    {
+        character.transform.position = new Vector3(0, 0, 0);
+    }
 }
