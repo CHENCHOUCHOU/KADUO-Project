@@ -18,8 +18,14 @@ public class BagWindow : Window
 	{
 		
        	   this.contentPane = UIPackage.CreateObject("Package1","BagWindow").asCom;
+		   GButton cancelButton =  this.contentPane.GetChild("n2").asButton;
+		    cancelButton.onClick.Set((EventContext) => {
+				   GameObject.Find("ImageTarget").GetComponent<FindTarget>().ChangePetSkinToOrigin();
+				   this.Hide();
+				   
+        });
 		   Mytxt = File.ReadAllText(Application.persistentDataPath + "/bought_to_bag.txt");
-        midArray = Mytxt.Split(new char[]{'\n'});
+           midArray = Mytxt.Split(new char[]{'\n'});
 			
 			for(int i=0;i<midArray.Length-1;i++)
 			{
@@ -35,7 +41,13 @@ public class BagWindow : Window
 	for (int i = 0; i < list.numItems; i++)
              {
 				GButton button = list.GetChildAt(i).asButton;
-                button.onClick.Add((EventContext) => {  this.Hide(); });
+                button.onClick.Add((EventContext) => { 
+				if(button.title=="s0"){
+						GameObject.Find("ImageTarget").GetComponent<FindTarget>().ChangePetSkinTogirl();}
+				else if(button.title=="s1"){
+						GameObject.Find("ImageTarget").GetComponent<FindTarget>().ChangePetSkinToboy();
+				}
+				this.Hide(); });
              }
 
 }
@@ -44,11 +56,12 @@ public class BagWindow : Window
 	{
 		
 		GButton button = obj.asButton;
-	                 string bagId = "s"+index;
+	    string bagId = "s"+index;
 		 for(int i=0;i<global.in_bag.Length;i++)
 		 {
 			 if(bagId == global.in_bag[i])
 			 button.icon =  UIPackage.GetItemURL("Package1",bagId);
+		     button.title = bagId;
 		 } 
 	}
 	

@@ -5,6 +5,8 @@ using System.IO;
 using System.Text;
 using Net;
 using System;
+using System.Security.Cryptography;
+
 public class Authenticate : MonoBehaviour
 {
     private GComponent mainUI;
@@ -19,7 +21,8 @@ public class Authenticate : MonoBehaviour
     void Start()
     {
         ClientSocket mSocket = new ClientSocket();
-        mSocket.ConnectServer("172.24.48.6", 8088);
+        mSocket.ConnectServer("192.168.43.34", 8088);
+        string publickey = mSocket.Receive();
 
         mainUI = GetComponent<UIPanel>().ui;
         GButton okButton = mainUI.GetChild("n25").asButton;
@@ -71,7 +74,8 @@ public class Authenticate : MonoBehaviour
                     {
                         line[x + 1] = line[x + 1].Replace("\r", "");
                         string str = "sequence#" + line[x + 1];
-                        string judge = mSocket.SendMessage(str);
+                        string str1 = RSAEncryption(str, publickey);
+                        string judge = mSocket.SendMessage(str1);
                         int int_judge = Convert.ToInt32(judge);
                         if (int_judge == 4)
                         {
@@ -146,4 +150,45 @@ public class Authenticate : MonoBehaviour
         return result;
     }
 
+
+    public string RSAEncryption(string plaintext, string publickey)
+    {
+        RSACryptoServiceProvider rsa2 = new RSACryptoServiceProvider();
+        rsa2.FromXmlString(publickey);   //rsa2   导入   rsa1   的公钥，用于加密信息   
+
+        //rsa2开始加密   
+        byte[] cipherbytes;
+        cipherbytes = rsa2.Encrypt(
+          Encoding.UTF8.GetBytes(plaintext),
+          false);
+
+        string cipherbytes1 = ToHexString(cipherbytes);
+
+        return cipherbytes1;
+    }
+    public static string ToHexString(byte[] bytes) // 0xae00cf => "AE00CF "
+
+    {
+        string hexString = string.Empty;
+
+        if (bytes != null)
+
+        {
+
+            StringBuilder strB = new StringBuilder();
+
+            for (int i = 0; i < bytes.Length; i++)
+
+            {
+
+                strB.Append(bytes[i].ToString("X2"));
+
+            }
+
+            hexString = strB.ToString();
+
+        }
+        return hexString;
+
+    }
 }

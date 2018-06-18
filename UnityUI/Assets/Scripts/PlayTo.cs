@@ -49,8 +49,8 @@ public class PlayTo : MonoBehaviour
 
         yield return new WaitForEndOfFrame();
 
-        int width = 800;
-        int height = 600;
+        int width = 1024;
+        int height = 2048;
         // 创建一个屏幕大小的纹理，RGB24 位格（24位格没有透明通道，32位的有）
         Texture2D tex = new Texture2D(width, height, TextureFormat.RGB24, false);
 

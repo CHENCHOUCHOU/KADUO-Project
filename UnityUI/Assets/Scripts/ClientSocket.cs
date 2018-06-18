@@ -3,6 +3,7 @@ using System.Collections;
 using System.Net;
 using System.Net.Sockets;
 using System.IO;
+using System;
 
 namespace Net
 {
@@ -68,6 +69,8 @@ namespace Net
                 //如果judge1为1，则为注册成功
                 //如果judge1为2，则为登陆失败
                 //如果judge1为3，则为登陆成功
+                //如果judge1为4，为序列码已被他人激活
+                //如果judge1为5，为序列码未被激活
                 clientSocket.Receive(result);
                 ByteBuffer buf = new ByteBuffer(result);
                 int len = buf.ReadShort();
@@ -83,6 +86,16 @@ namespace Net
             return judge1;
 
         }
+
+        public string  Receive()
+        {
+            ByteBuffer buffer = new ByteBuffer(result);
+            int len = buffer.ReadShort();
+            string data = buffer.ReadString();
+            return data;
+        }
+
+
 
         /// <summary>  
         /// 数据转换，网络发送需要两部分数据，一是数据长度，二是主体数据  

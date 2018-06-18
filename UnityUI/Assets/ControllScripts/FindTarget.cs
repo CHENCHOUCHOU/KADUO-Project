@@ -42,7 +42,7 @@ public class FindTarget : MonoBehaviour {
             chaCon.Move(character.transform.forward * 70.0f * Time.deltaTime);
             ani.SetBool("foodTargetOn", true);
         }
-        else if (SceneController.foodOn == false && m_wantToEat)
+       /* else if (SceneController.foodOn == false && m_wantToEat)
         {
             text.GetComponent<TextMesh>().text = "Hungry but food is offline";
             ani.SetBool("foodTargetOn", false);
@@ -56,10 +56,10 @@ public class FindTarget : MonoBehaviour {
         {
             text.GetComponent<TextMesh>().text = "Food found but not hungry";
             ani.SetBool("foodTargetOn", false);
-        }
+        }*/
         
-        text2.GetComponent<TextMesh>().text = "Target:"+ ani.GetBool("foodTargetOn").ToString();
-        text3.GetComponent<TextMesh>().text = "Position:"+ ani.GetBool("foodPosition").ToString();
+        //text2.GetComponent<TextMesh>().text = "Target:"+ ani.GetBool("foodTargetOn").ToString();
+       // text3.GetComponent<TextMesh>().text = "Position:"+ ani.GetBool("foodPosition").ToString();
         text4.GetComponent<TextMesh>().text = "Hunger:" + ani.GetFloat("hunger").ToString();
 
         HungerDec();
