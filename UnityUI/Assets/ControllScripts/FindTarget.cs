@@ -21,7 +21,8 @@ public class FindTarget : MonoBehaviour {
     public GameObject girl;
 	// Use this for initialization
 	void Start () {
-        
+        DontDestroyOnLoad(this.gameObject);        
+
         ani = character.transform.GetComponent<Animator>();
         ani.SetBool("foodPosition", false);
         chaCon = character.transform.GetComponent<CharacterController>();
@@ -36,27 +37,27 @@ public class FindTarget : MonoBehaviour {
 
         if (SceneController.foodOn == true && m_wantToEat)
         {
-            text.GetComponent<TextMesh>().text = "Found";
+            //text.GetComponent<TextMesh>().text = "Found";
             character.transform.LookAt(target.transform);
             if (ani.GetBool("foodPosition")==false)
             chaCon.Move(character.transform.forward * 70.0f * Time.deltaTime);
             ani.SetBool("foodTargetOn", true);
         }
-       /* else if (SceneController.foodOn == false && m_wantToEat)
+        else if (SceneController.foodOn == false && m_wantToEat)
         {
-            text.GetComponent<TextMesh>().text = "Hungry but food is offline";
+            //text.GetComponent<TextMesh>().text = "Hungry but food is offline";
             ani.SetBool("foodTargetOn", false);
         }
         else if (!m_wantToEat && SceneController.foodOn == true)
         {
-            text.GetComponent<TextMesh>().text = "Food found but not hungry";
+            //text.GetComponent<TextMesh>().text = "Food found but not hungry";
             ani.SetBool("foodTargetOn", true);
         }
         else if (!m_wantToEat && SceneController.foodOn == false)
         {
-            text.GetComponent<TextMesh>().text = "Food found but not hungry";
+            //text.GetComponent<TextMesh>().text = "Food found but not hungry";
             ani.SetBool("foodTargetOn", false);
-        }*/
+        }
         
         //text2.GetComponent<TextMesh>().text = "Target:"+ ani.GetBool("foodTargetOn").ToString();
        // text3.GetComponent<TextMesh>().text = "Position:"+ ani.GetBool("foodPosition").ToString();

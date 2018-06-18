@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ControllScripts\DonotDestoryed.cs" />
      <Compile Include="Assets\ControllScripts\FindTarget.cs" />
      <Compile Include="Assets\ControllScripts\SceneController.cs" />
      <Compile Include="Assets\ControllScripts\TriggerCheck.cs" />
